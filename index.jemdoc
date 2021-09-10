@@ -1,36 +1,56 @@
 # jemdoc: menu{MENU}{index.html}, nofooter  
-==Zhang Manyuan
+==Manyuan Zhang
 
 ~~~
-{}{img_left}{photos/bio.jpg}
-Ph.D. student,\n [http://mmlab.ie.cuhk.edu.hk/ Multimedia Laboratory],\n[http://www.ee.cuhk.edu.hk/en-gb/ Department of Electornic Engineering ] \n[https://www.cuhk.edu.hk/chinese/index.html The Chinese University of Hong Kong]\n
-Ho Sin-Hang Engineering Building Room 304\n
-E-post: /zhangmanyuan/ \[@\] link \[DOT\] cuhk \[DOT\] edu \[DOT\] hk
+{}{img_left}{bioo.jpg}{alt text}{160}{160}{}
+Ph.D. Student\n [http://mmlab.ie.cuhk.edu.hk/ Multimedia Laboratory]\n[http://www.ee.cuhk.edu.hk/en-gb/ Department of Electornic Engineering ] \n[https://www.cuhk.edu.hk/chinese/index.html The Chinese University of Hong Kong]\n
+Office: SHB 304, CUHK, Hong Kong S.A.R., China \n
+Email: zhangmanyuan@link.cuhk.edu.hk \n
+[https://scholar.google.com/citations?hl=zh-CN&user=ZYmcm0EAAAAJ  Scholar] [cv.pdf CV] [https://github.com/manyuan97 Github] [https://www.linkedin.com/in/manyuan-zhang-32997814b/?originalSubdomain=cn Linkin]
 ~~~
 
 == About me
 
-I am currently a Ph.D. student in [http://mmlab.ie.cuhk.edu.hk/ Multimedia Lab (MMLab)],the Chinese University of Hong Kong. I am supervised by [https://www.ee.cuhk.edu.hk/~hsli/ Prof.Hongsheng Li]. I received my bachelor's degree in Network Engineering from the School of Information  and Communication Engineering at University of Electronic Science and Technology of China (UESTC) in 2019. \n
+I am currently a Ph.D. student at [http://mmlab.ie.cuhk.edu.hk/ Multimedia Lab (MMLab)], the Chinese University of Hong Kong. I am supervised by [https://www.ee.cuhk.edu.hk/~hsli/ Prof.Hongsheng Li]. I received my bachelor's degree in Network Engineering from the School of Information  and Communication Engineering at [https://www.uestc.edu.cn/ University of Electronic Science and Technology of China (UESTC)] in 2019. Now, I am also a Research Intern at [https://www.sensetime.com/cn/ SenseTime X-Lab], working closely with  [http://liuyu.us/ Yu Liu] and [https://scholar.google.com/citations?user=Bd3v08QAAAAJ&hl=zh-CN/ Guanglu Song].\n
 
-My research interests include deep learning and its applications face recongition and video understanding.
+My research interests include deep learning and its applications on face recognition and video understanding.
 
-== Research
-My research interests include 
-- Convex Optimisation  
-- Distributed Algorithms
-- Real-time Sensor Networking
-- Wireless Networks
-- Machine Learning
+== News
+- \[2021-07\] We release  [https://github.com/opendilab/DI-drive/ DI-drive], the decision intelligence platform for autonomous driving simulation. I am responsible for the imitation learning part.
+- \[2021-07\] One paper accepted to ICCV 2021.
+- \[2021-05\] We win the championship of [https://pages.nist.gov/frvt/reportcards/11/sensetime_005.html/ NIST FRVT 1:1].
+- \[2020-12\] We win the championship of [https://pages.nist.gov/frvt/reportcards/1N/sensetime_005.pdf/ NIST FRVT 1:N].
+- \[2020-06\] We win 2 championships of [http://activity-net.org/ ActivityNet] on the [http://activity-net.org/challenges/2020/tasks/guest_ava.html/ Spatio-temporal Action Localization (AVA)] track and the [http://activity-net.org/challenges/2020/tasks/guest_kinetics.html/ Trimmed Activity Recognition (Kinetics 700)] track. 
+- \[2020-06\] One paper accepted to ECCV 2020.
+- \[2020-04\] We release the [https://github.com/Sense-X/X-Temporal/ X-Temporal] for easily implement SOTA video understanding methods with PyTorch on multiple machines and GPUs.
+- \[2019-10\] One paper accepted to ICCV 2019 LFR workshop.
+- \[2019-10\] We win the championship of [http://moments.csail.mit.edu/challenge_iccv_2019.html ICCV19 Multi-Moments in Time (MIT) Challenge].
+- \[2019-10\] We win the championship of [https://ibug.doc.ic.ac.uk/resources/lightweight-face-recognition-challenge-workshop/ ICCV19 Lightweight Face Recognition Challenge].
 
-[research.html Find out more].
 === Recent Publications 
-. E. Ghadimi, H. R. Feyzmahdavian, and M. Johansson, \"Global convergence of the heavy-ball method for convex optimization\",  In ECC'15: European Control Conference, 2015.
-. E. Ghadimi, A. Teixeira, I. Shames, and M. Johansson \" Optimal parameter selection for the alternating direction method of
-multipliers (ADMM): quadratic problems \", IEEE Transactions on Automatic Control, 2015. \[[http://arxiv.org/abs/1306.2454 arxiv]\]
-. E. Ghadimi, A. Teixeira, M. Rabbat, and M. Johansson, \"The ADMM algorithm for distributed averaging: Convergence rates and optimal parameter selection\", In Proceedings of the 48th Asilomar Conference on Signals, Systems and Computers, 2014. \[[https://www.dropbox.com/s/k9izxz1m39yvvuz/admm_distributed_aveg.pdf?dl=0 pdf] \]
-. E. Ghadimi, O. Landsiedel, P. Soldati, S. Duquennoy, and M. Johansson, \"Opportunistic Routing in Low Duty-Cycle Wireless Sensor Networks\", ACM Transactions on Senor Networks, 2014. \[[pub/oppTOSN.pdf pdf]\]
-
-[publications.html Full list of publications].
-\n
-[cv.pdf A brief cv].
+\*equal contribition
+- Switchable K-class Hyperplanes for Noise-robust Representation Learning \n 
+  Boxiao Liu, Guanglu Song, *Manyuan Zhang*, Haihang You, Yu Liu \n
+  2021 International Conference on Computer Vision (ICCV)
+- [https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550001.pdf/ Discriminability Distillation in Group Representation Learning] \n
+  *Manyuan Zhang*, Guanglu Song, Hang Zhou, Yu Liu \n
+  2020 European Conference on Computer Vision (ECCV)
+- [https://openaccess.thecvf.com/content_ICCVW_2019/papers/LSR/Liu_Towards_Flops-Constrained_Face_Recognition_ICCVW_2019_paper.pdf/ Towards Flops-constrained Face Recognition] \n
+  Yu Liu\*, Guanglu Song\*, *Manyuan Zhang\**, Jihao Liu\*, Yucong Zhou, Junjie Yan \n
+  2019 ICCV Lightweight Face Recognition Challenge & Workshop
+- [https://ieeexplore.ieee.org/document/8486609 Tensor sensing for RF tomographic imaging] \n
+  Tao Deng, Feng Qian, Xiao-Yang Liu, *Manyuan Zhang*, Anwar Walid \n 
+  2018 IEEE International Conference on Multimedia and Expo (ICME) 
+=== Technical Report 
+- [https://arxiv.org/abs/2006.09116/ 1st place solution for AVA-Kinetics Crossover in AcitivityNet Challenge 2020]  (Top-1 Solution) \n
+  Siyu Chen, Junting Pan, Guanglu Song, *Manyuan Zhang*, Hao Shao, Ziyi Lin, Jing Shao, Hongsheng Li, Yu Liu 
+- [https://arxiv.org/abs/2003.05837/ Top-1 Solution of Multi-Moments in Time Challenge 2019]  (Top-1 Solution) \n
+  *Manyuan Zhang*, Hao Shao, Guanglu Song, Yu Liu, Junjie Yan
+=== Working Experience
+- Research intern at [https://www.sensetime.com/cn/ SenseTime Research] (since Feb 2019) \n
+  Working on large-scale face recognition and video understanding with [http://liuyu.us/ Yu Liu] and [https://scholar.google.com/citations?user=Bd3v08QAAAAJ&hl=zh-CN/ Guanglu Song]
+- Research intern at [https://en.megvii.com/megvii_research/ Megvii Research] (from Aug 2018 to Feb 2019) \n
+  Working on style transfer with [http://www.liushuaicheng.org/ Shuaicheng Liu]. \n
+- Research intern at [https://ailab.bytedance.com/ Bytedance AI Lab] (from May 2018 to Aug 2018) \n
+  Working on large-scale face recognition.
 
