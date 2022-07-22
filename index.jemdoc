@@ -11,11 +11,13 @@ Email: zhangmanyuan@link.cuhk.edu.hk \n
 
 == About me
 
-I am currently a Ph.D. student at [http://mmlab.ie.cuhk.edu.hk/ Multimedia Lab (MMLab)], the Chinese University of Hong Kong. I am supervised by [https://www.ee.cuhk.edu.hk/~hsli/ Prof.Hongsheng Li]. I received my bachelor's degree in Network Engineering from the School of Information  and Communication Engineering at [https://www.uestc.edu.cn/ University of Electronic Science and Technology of China (UESTC)] in 2019. Now, I am also a Research intern at [https://www.sensetime.com/cn/ SenseTime X-Lab], working closely with  [http://liuyu.us/ Yu Liu] and [https://scholar.google.com/citations?user=Bd3v08QAAAAJ&hl=zh-CN/ Guanglu Song].\n
+I am currently a Ph.D. student at [http://mmlab.ie.cuhk.edu.hk/ Multimedia Lab (MMLab)], the Chinese University of Hong Kong. I am supervised by [https://www.ee.cuhk.edu.hk/~hsli/ Prof.Hongsheng Li] and  [https://www.ee.cuhk.edu.hk/~xgwang/ Prof.Xiaogang Wang].I received my bachelor's degree in Network Engineering from the School of Information  and Communication Engineering at [https://www.uestc.edu.cn/ University of Electronic Science and Technology of China (UESTC)] in 2019. Now, I am also a Researcher  at [https://www.sensetime.com/cn/ SenseTime X-Lab], working closely with  [http://liuyu.us/ Yu Liu] and [https://scholar.google.com/citations?user=Bd3v08QAAAAJ&hl=zh-CN/ Guanglu Song].\n
 
 My research interests include deep learning and its applications on face recognition and video understanding.
 
 == News
+- \[2022-07\] One paper accepted to ECCV 2020.
+- \[2022-04\] I am invited to 'Zhidongxi' to give a talk about imitation learning in automatic driving.
 - \[2021-10\] We win three championships of [https://ibug.doc.ic.ac.uk/resources/masked-face-recognition-challenge-workshop-iccv-21/ ICCV 2021 Masked Face Recognition Challenge] on [http://iccv21-mfr.com/ glink360k ] track, [http://iccv21-mfr.com/ unconstrained ] track and [https://competitions.codalab.org/competitions/32478 Webface260M] track. Code and solutions will be released very soon.
 - \[2021-07\] We release  [https://github.com/opendilab/DI-drive/ DI-drive], the decision intelligence platform for autonomous driving simulation. I am responsible for the imitation learning part.
 - \[2021-07\] One paper accepted to ICCV 2021.
@@ -30,7 +32,11 @@ My research interests include deep learning and its applications on face recogni
 
 === Recent Publications 
 \*equal contribition
-- Switchable K-class Hyperplanes for Noise-robust Representation Learning \n 
+
+- Towards Robust Face Recognition with Comprehensive Search \n
+  *Manyuan Zhang*, Guanglu Song, Yu Liu, Hongsheng Li
+  2022 European Conference on Computer Vision (ECCV)
+- [https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Switchable_K-Class_Hyperplanes_for_Noise-Robust_Representation_Learning_ICCV_2021_paper.pdf/ Switchable K-class Hyperplanes for Noise-robust Representation Learning] \n 
   Boxiao Liu, Guanglu Song, *Manyuan Zhang*, Haihang You, Yu Liu \n
   2021 International Conference on Computer Vision (ICCV)
 - [https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550001.pdf/ Discriminability Distillation in Group Representation Learning] \n
@@ -42,11 +48,22 @@ My research interests include deep learning and its applications on face recogni
 - [https://ieeexplore.ieee.org/document/8486609 Tensor sensing for RF tomographic imaging] \n
   Tao Deng, Feng Qian, Xiao-Yang Liu, *Manyuan Zhang*, Anwar Walid \n 
   2018 IEEE International Conference on Multimedia and Expo (ICME) 
+- [https://arxiv.org/pdf/1803.10943.pdf/ Privacy-preserving sensory data recovery] \n
+  Cai Chen, *Manyuan Zhang*, Huanzhi Zhang, Zhenyun Huang, Yong Li.
 === Technical Report 
+- [Towards Large-scale Masked Face Recognition] (Top-1 Solution) \n
+  *Manyuan Zhang*, Bingqi Ma, Guanglu Song, Yunxiao Wang, Hongsheng Li, Yu Liu
 - [https://arxiv.org/abs/2006.09116/ 1st place solution for AVA-Kinetics Crossover in AcitivityNet Challenge 2020]  (Top-1 Solution) \n
   Siyu Chen, Junting Pan, Guanglu Song, *Manyuan Zhang*, Hao Shao, Ziyi Lin, Jing Shao, Hongsheng Li, Yu Liu 
 - [https://arxiv.org/abs/2003.05837/ Top-1 Solution of Multi-Moments in Time Challenge 2019]  (Top-1 Solution) \n
   *Manyuan Zhang*, Hao Shao, Guanglu Song, Yu Liu, Junjie Yan
+
+=== Selected Projects
+- [https://github.com/Sense-X/X-Temporal/ X-Xemporal] \n
+  Easily implement SOTA video understanding methods with PyTorch on multiple machines and GPU.
+- [https://github.com/opendilab/DI-drive/ DI-drive] \n 
+  Decision Intelligence Platform for Autonomous Driving simulation.
+
 === Working Experience
 - Research intern at [https://www.sensetime.com/cn/ SenseTime Research] (since Feb 2019) \n
   Working on large-scale face recognition and video understanding with [http://liuyu.us/ Yu Liu] and [https://scholar.google.com/citations?user=Bd3v08QAAAAJ&hl=zh-CN/ Guanglu Song]
