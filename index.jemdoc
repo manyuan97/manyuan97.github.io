@@ -36,6 +36,11 @@ My research interests include deep learning and its applications on face recogni
 === Recent Publications 
 \*equal contribition
 
+
+
+- [https://arxiv.org/abs/2303.01237 FlowFormer++: Masked Cost Volume Autoencoding for Pretraining Optical Flow Estimation] \n
+  Xiaoyu Shi, Zhaoyang Huang, Dasong Li, *Manyuan Zhang*, Ka Chun Cheung, Simon See, Hongwei Qin, Jifeng Dai, Hongsheng Li \n
+  2022 The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 
 - [https://arxiv.org/abs/2208.13600/ Towards Robust Face Recognition with Comprehensive Search] \n
   *Manyuan Zhang*, Guanglu Song, Yu Liu, Hongsheng Li \n
   2022 European Conference on Computer Vision (ECCV)
