@@ -16,6 +16,9 @@ I am currently a Ph.D. student at [http://mmlab.ie.cuhk.edu.hk/ Multimedia Lab (
 My research interests include deep learning and its applications on face recognition and video understanding.
 
 == News
+- \[2023-07\] Two paper accepted to ICCV2023.
+- \[2023-07\] I pass the PhD candidate test. 
+- \[2023-05\] I am invited to be a reviewer for NIPS2023
 - \[2023-02\] One paper accepted to CVPR 2023.
 - \[2022-12\] I am invited to be a reviewer for CVPR2023 and ICCV2023.
 - \[2022-07\] One paper accepted to ECCV 2022.
@@ -37,6 +40,13 @@ My research interests include deep learning and its applications on face recogni
 \*equal contribition
 
 
+- Decoupled DETR: Spatially Disentangling Localization and Classification for Improved End-to-End Object Detection
+  *Manyuan Zhang*, Guanglu Song, Yu Liu, Hongsheng Li \n
+  2023  International Conference on Computer Vision (ICCV)
+
+- [https://arxiv.org/abs/2303.08340 VideoFlow: Exploiting Temporal Cues for Multi-frame Optical Flow Estimation] \n
+  Xiaoyu Shi, Zhaoyang Huang, Weikang Bian, Dasong Li, *Manyuan Zhang*, Ka Chun Cheung, Simon See, Hongwei Qin, Jifeng Dai, Hongsheng Li \n
+  2023  International Conference on Computer Vision (ICCV)
 
 - [https://arxiv.org/abs/2303.01237 FlowFormer++: Masked Cost Volume Autoencoding for Pretraining Optical Flow Estimation] \n
   Xiaoyu Shi, Zhaoyang Huang, Dasong Li, *Manyuan Zhang*, Ka Chun Cheung, Simon See, Hongwei Qin, Jifeng Dai, Hongsheng Li \n
