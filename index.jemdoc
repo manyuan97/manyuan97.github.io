@@ -16,6 +16,7 @@ In my more than five-year career at the [https://www.sensetime.com/cn/ SenseTime
 
 
 == News
+- \[2024-03\] One paper accepted to SIGGRAPH2024.
 - \[2023-07\] Two paper accepted to ICCV2023.
 - \[2023-07\] I pass the PhD candidate test. 
 - \[2023-05\] I am invited to be a reviewer for NIPS2023 and ICLR2023.
@@ -39,8 +40,11 @@ In my more than five-year career at the [https://www.sensetime.com/cn/ SenseTime
 === Recent Publications 
 \*equal contribition
 
+- [https://arxiv.org/abs/2401.15977 Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling ] \n
+  Xiaoyu Shi, Zhaoyang Huang, Fu-Yun Wang, Weikang Bian, Dasong Li, Yi Zhang, *Manyuan Zhang*, Ka Chun Cheung, Simon See, Hongwei Qin, Jifeng Dai, Hongsheng Li
+  2024 ACM SIGGRAPH
 
-- Decoupled DETR: Spatially Disentangling Localization and Classification for Improved End-to-End Object Detection \n
+- [https://arxiv.org/abs/2310.15955 Decoupled DETR: Spatially Disentangling Localization and Classification for Improved End-to-End Object Detection] \n
   *Manyuan Zhang*, Guanglu Song, Yu Liu, Hongsheng Li \n
   2023  International Conference on Computer Vision (ICCV)
 
