@@ -16,6 +16,7 @@ In my more than five-year career at the [https://www.sensetime.com/cn/ SenseTime
 
 
 == News
+- \[2024-03\] Two papers accepted to ECCV2024.
 - \[2024-03\] One paper accepted to SIGGRAPH2024.
 - \[2023-07\] Two paper accepted to ICCV2023.
 - \[2023-07\] I pass the PhD candidate test. 
@@ -39,6 +40,14 @@ In my more than five-year career at the [https://www.sensetime.com/cn/ SenseTime
 
 === Recent Publications 
 \*equal contribition
+
+- Three Things We Need to Know About Transferring Stable Diffusion to Visual Dense Prediciton Tasks \n
+  *Manyuan Zhang*, Guanglu Song, Yu Liu, Hongsheng Li
+  2024 European Conference on Computer Vision (ECCV)
+
+- [https://arxiv.org/abs/2401.15977 Deep Reward Supervisions for Tuning Text-to-Image Diffusion Models ] \n
+  Xiaoshi Wu, Yiming Hao, *Manyuan Zhang*, Keqiang Sun, Zhaoyang Huang, Guanglu Song, Yu Liu, and Hongsheng Li.
+  2024 European Conference on Computer Vision (ECCV)
 
 - [https://arxiv.org/abs/2401.15977 Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling ] \n
   Xiaoyu Shi, Zhaoyang Huang, Fu-Yun Wang, Weikang Bian, Dasong Li, Yi Zhang, *Manyuan Zhang*, Ka Chun Cheung, Simon See, Hongwei Qin, Jifeng Dai, Hongsheng Li
