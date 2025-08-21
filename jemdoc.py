@@ -26,21 +26,21 @@ import sys
 import os
 import re
 import time
-import StringIO
+import io
 from subprocess import *
 import tempfile
 
 def info():
-  print __doc__
-  print 'Platform: ' + sys.platform + '.'
-  print 'Python: %s, located at %s.' % (sys.version[:5], sys.executable)
-  print 'Equation support:',
+  print(__doc__)
+  print('Platform: ' + sys.platform + '.')
+  print('Python: %s, located at %s.' % (sys.version[:5], sys.executable))
+  print('Equation support:', end=' ')
   (supported, message) = testeqsupport()
   if supported:
-    print 'yes.'
+    print('yes.')
   else:
-    print 'no.'
-  print message
+    print('no.')
+  print(message)
 
 def testeqsupport():
   supported = True
@@ -51,14 +51,14 @@ def testeqsupport():
     msg += '  latex: not found.\n'
     supported = False
   else:
-    msg += '  latex: ' + p.stdout.readlines()[0].rstrip() + '.\n'
+    msg += '  latex: ' + p.stdout.readlines()[0].decode().rstrip() + '.\n'
   p = Popen('dvipng --version', shell=True, stdout=PIPE, stderr=PIPE)
   rc = p.wait()
   if rc != 0:
     msg += '  dvipng: not found.\n'
     supported = False
   else:
-    msg += '  dvipng: ' + p.stdout.readlines()[0].rstrip() + '.\n'
+    msg += '  dvipng: ' + p.stdout.readlines()[0].decode().rstrip() + '.\n'
 
   return (supported, msg[:-1])
 
@@ -85,7 +85,7 @@ class controlstruct(object):
 
   def pushfile(self, newfile):
     self.otherfiles.insert(0, self.inf)
-    self.inf = open(newfile, 'rb')
+    self.inf = open(newfile, 'r')
 
   def nextfile(self):
     self.inf.close()
@@ -127,7 +127,7 @@ def showhelp():
     else:
       b += l
 
-  print b
+  print(b)
 
 def standardconf():
   a = """[firstbit]
@@ -293,9 +293,9 @@ def parseconf(cns):
   syntax = {}
   warn = False # jem. make configurable?
   # manually add the defaults as a file handle.
-  fs = [StringIO.StringIO(standardconf())]
+  fs = [io.StringIO(standardconf())]
   for sname in cns:
-    fs.append(open(sname, 'rb'))
+    fs.append(open(sname, 'r'))
 
   for f in fs:
     while pc(controlstruct(f)) != '':
@@ -318,7 +318,7 @@ def parseconf(cns):
   return syntax
 
 def insertmenuitems(f, mname, current, prefix):
-  m = open(mname, 'rb')
+  m = open(mname, 'r')
   while pc(controlstruct(m)) != '':
     l = readnoncomment(m)
     l = l.strip()
@@ -381,12 +381,17 @@ def hb(f, tag, content1, content2=None):
 def pc(f, ditchcomments=True):
   """Peeks at next character in the file."""
   # Should only be used to look at the first character of a new line.
+  pos = f.inf.tell()
   c = f.inf.read(1)
   if c: # only undo forward movement if we're not at the end.
     if ditchcomments and c == '#':
+      f.inf.seek(pos)
       l = nl(f)
       if doincludes(f, l):
         return "#"
+      else:
+        pos = f.inf.tell()
+        c = f.inf.read(1)
 
     if c in ' \t':
       return pc(f)
@@ -394,7 +399,7 @@ def pc(f, ditchcomments=True):
     if c == '\\':
       c += pc(f)
 
-    f.inf.seek(-1, 1)
+    f.inf.seek(pos)
   elif f.otherfiles:
     f.nextfile()
     return pc(f, ditchcomments)
@@ -405,7 +410,7 @@ def doincludes(f, l):
   ir = 'includeraw{'
   i = 'include{'
   if l.startswith(ir):
-    nf = open(l[len(ir):-2], 'rb')
+    nf = open(l[len(ir):-2], 'r')
     f.outf.write(nf.read())
     nf.close()
   elif l.startswith(i):
@@ -531,8 +536,8 @@ def replaceequations(b, f):
         # Check that the tools we need exist.
         (supported, message) = testeqsupport()
         if not supported:
-          print 'WARNING: equation support disabled.'
-          print message
+          print('WARNING: equation support disabled.')
+          print(message)
           f.eqsupport = False
           return b
 
@@ -774,13 +779,13 @@ def br(b, f, tableblock=False):
 def allreplace(b):
   """Replacements that should be done on everything."""
   r = re.compile(r"(?<!\\)&", re.M + re.S)
-  b = re.sub(r, r'&amp;', b)
+  b = r.sub(r'&amp;', b)
 
   r = re.compile(r"(?<!\\)>", re.M + re.S)
-  b = re.sub(r, r'&gt;', b)
+  b = r.sub(r'&gt;', b)
 
   r = re.compile(r"(?<!\\)<", re.M + re.S)
-  b = re.sub(r, r'&lt;', b)
+  b = r.sub(r'&lt;', b)
 
   return b
 
@@ -936,7 +941,7 @@ def geneq(f, eq, dpi, wl, outname):
   eqdepths = {}
   if f.eqcache:
     try:
-      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'rb')
+      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'r')
       for l in dc:
         a = l.split()
         eqdepths[a[0]] = int(a[1])
@@ -945,7 +950,7 @@ def geneq(f, eq, dpi, wl, outname):
       if os.path.exists(eqname) and eqname in eqdepths:
         return (eqdepths[eqname], eqname)
     except IOError:
-      print 'eqdepthcache read failed.'
+      print('eqdepthcache read failed.')
 
   # Open tex file.
   tempdir = tempfile.gettempdir()
@@ -953,24 +958,24 @@ def geneq(f, eq, dpi, wl, outname):
   basefile = texfile[:-4]
   g = os.fdopen(fd, 'wb')
 
-  preamble = '\documentclass{article}\n'
+  preamble = '\\documentclass{article}\n'
   for p in f.eqpackages:
-    preamble += '\usepackage{%s}\n' % p
+    preamble += '\\usepackage{%s}\n' % p
   for p in f.texlines:
     # Replace \{ and \} in p with { and }.
     # XXX hack.
     preamble += re.sub(r'\\(?=[{}])', '', p + '\n')
-  preamble += '\pagestyle{empty}\n\\begin{document}\n'
-  g.write(preamble)
+  preamble += '\\pagestyle{empty}\n\\begin{document}\n'
+  g.write(preamble.encode('utf-8'))
   
   # Write the equation itself.
   if wl:
-    g.write('\\[%s\\]' % eq)
+    g.write(('\\\\[%s\\\\]' % eq).encode('utf-8'))
   else:
-    g.write('$%s$' % eq)
+    g.write(('$%s$' % eq).encode('utf-8'))
 
   # Finish off the tex file.
-  g.write('\n\\newpage\n\end{document}')
+  g.write('\n\\\\newpage\n\\end{document}'.encode('utf-8'))
   g.close()
 
   exts = ['.tex', '.aux', '.dvi', '.log']
@@ -982,7 +987,7 @@ def geneq(f, eq, dpi, wl, outname):
     rc = p.wait()
     if rc != 0:
       for l in p.stdout.readlines():
-        print '  ' + l.rstrip()
+        print('  ' + l.decode().rstrip())
       exts.remove('.tex')
       raise Exception('latex error')
 
@@ -992,9 +997,9 @@ def geneq(f, eq, dpi, wl, outname):
     p = Popen(dvicmd, shell=True, stdout=PIPE, stderr=PIPE)
     rc = p.wait()
     if rc != 0:
-      print p.stderr.readlines()
+      print(p.stderr.readlines())
       raise Exception('dvipng error')
-    depth = int(p.stdout.readlines()[-1].split('=')[-1])
+    depth = int(p.stdout.readlines()[-1].decode().split('=')[-1])
   finally:
     # Clean up.
     for ext in exts:
@@ -1005,11 +1010,11 @@ def geneq(f, eq, dpi, wl, outname):
   # Update the cache if we're using it.
   if f.eqcache and eqname not in eqdepths:
     try:
-      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'ab')
+      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'a')
       dc.write(eqname + ' ' + str(depth) + '\n')
       dc.close()
     except IOError:
-      print 'eqdepthcache update failed.'
+      print('eqdepthcache update failed.')
   return (depth, eqname)
 
 def dashlist(f, ordered=False):
@@ -1149,7 +1154,7 @@ def codeblock(f, g):
   if raw:
     return
   elif ext_prog:
-    print 'filtering through %s...' % ext_prog
+    print('filtering through %s...' % ext_prog)
 
     output,_ = Popen(ext_prog, shell=True, stdin=PIPE,
                      stdout=PIPE).communicate(buff)
@@ -1502,7 +1507,7 @@ def main():
     showhelp()
     raise SystemExit
   if sys.argv[1] == '--show-config':
-    print standardconf()
+    print(standardconf())
     raise SystemExit
   if sys.argv[1] == '--version':
     info()
@@ -1552,7 +1557,7 @@ def main():
     else:
       thisout = outname
 
-    infile = open(inname, 'rUb')
+    infile = open(inname, 'r')
     outfile = open(thisout, 'w')
 
     f = controlstruct(infile, outfile, conf, inname)
