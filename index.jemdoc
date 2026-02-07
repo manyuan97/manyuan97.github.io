@@ -63,8 +63,36 @@ Currently, at Meituan-M17 Hong Kong, I am involved in the development of the Lon
   *Manyuan Zhang*, Hao Shao, Guanglu Song, Yu Liu, Junjie Yan
 
 
+=== Preprint Papers
+\*equal contribution \+project lead\/corresponding author
+
+- [https://arxiv.org/abs/2601.22154 Exploring Reasoning Reward Model for Agents] \n
+  Kaixuan Fan, Kaituo Feng, \+*Manyuan Zhang*, Tianshuo Peng, Zhixun Li, Yilei Jiang, Shuang Chen, Peng Pei, Xunliang Cai, Xiangyu Yue
+
+- [https://arxiv.org/abs/2512.08294 OpenSubject: Leveraging Video-Derived Identity and Diversity Priors for Subject-driven Image Generation and Manipulation] \n
+  Yexin Liu, \+*Manyuan Zhang*, Yueze Wang, Hongyu Li, Dian Zheng, Weiming Zhang, Changsheng Lu, Xunliang Cai, Yan Feng, Peng Pei, Harry Yang
+
+- [https://arxiv.org/abs/2512.05965 EditThinker: Unlocking Iterative Reasoning for Any Image Editor] \n
+  Hongyu Li, \+*Manyuan Zhang*, Dian Zheng, Ziyu Guo, Yimeng Jia, Kaituo Feng, Hao Yu, Yexin Liu, Yan Feng, Peng Pei, Xunliang Cai, Linjiang Huang, Hongsheng Li, Si Liu
+
+- [https://arxiv.org/abs/2512.03043 OneThinker: All-in-one Reasoning Model for Image and Video] \n
+  Kaituo Feng, \+*Manyuan Zhang*, Hongyu Li, Kaixuan Fan, Shuang Chen, Yilei Jiang, Dian Zheng, Peiwen Sun, Yiyuan Zhang, Haoze Sun, Yan Feng, Peng Pei, Xunliang Cai, Xiangyu Yue
+
+- [https://arxiv.org/abs/2511.22663 Architecture Decoupling is Not All You Need for Unified Multimodal Model] \n
+  Dian Zheng, \+*Manyuan Zhang*, Hongyu Li, Kai Zou, Hongbo Liu, Ziyu Guo, Kaituo Feng, Yexin Liu, Ying Luo, Yan Feng, Peng Pei, Xunliang Cai, Hongsheng Li
+
+- [https://arxiv.org/abs/2511.16671 Thinking-while-Generating: Interleaving Textual Reasoning throughout Visual Generation] \n
+  Ziyu Guo, Renrui Zhang, Hongyu Li, \+*Manyuan Zhang*, Xinyan Chen, Sifan Wang, Yan Feng, Peng Pei, Pheng-Ann Heng
+
+- [https://arxiv.org/abs/2510.18632 Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views] \n
+  Zhangquan Chen, \+*Manyuan Zhang*, Xinlei Yu, Xufang Luo, Mingze Sun, Zihao Pan, Yan Feng, Peng Pei, Xunliang Cai, Ruqi Huang
+
+- [https://arxiv.org/abs/2510.11718 CodePlot-CoT: Mathematical Visual Reasoning by Thinking with Code-driven Images] \n
+  Chengqi Duan, Kaiyue Sun, Rongyao Fang, \+*Manyuan Zhang*, Yan Feng, Ying Luo, Yufang Liu, Ke Wang, Peng Pei, Xunliang Cai, Hongsheng Li, Yi Ma, Xihui Liu
+
+
 === Recent Publications 
-\*equal contribition
+\*equal contribution
 
 - [https://arxiv.org/abs/2510.22706 IGGT: Instance-Grounded Geometry Transformer for Semantic 3D Reconstruction] \n
   Hao Li, Zhengyu Zou, Fangfu Liu, Xuanyang Zhang, Fangzhou Hong, Yukang Cao, Yushi Lan, *Manyuan Zhang*, Gang Yu, Dingwen Zhang, Ziwei Liu \n
