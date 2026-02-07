@@ -12,10 +12,11 @@ Email: zhangmanyuan@link.cuhk.edu.hk \n
 == About me
 
 Now, I am a Staff Researcher at Meituan-M17, Hong Kong. I received my Ph.D. from [http://mmlab.ie.cuhk.edu.hk/ Multimedia Lab (MMLab)], the Chinese University of Hong Kong, supervised by [https://www.ee.cuhk.edu.hk/~hsli/ Prof.Hongsheng Li] and  [https://www.ee.cuhk.edu.hk/~xgwang/ Prof.Xiaogang Wang]. And I received my bachelor's degree from  [https://www.uestc.edu.cn/ University of Electronic Science and Technology of China (UESTC)] in 2019.  Previously, I was a Researcher at [https://www.sensetime.com/cn/ SenseTime Research]. \n\n
-During my six years at [https://www.sensetime.com/cn/ SenseTime Research], I was involved in many projects from scratch. We built the *most reliable face recognition system in the world* at that time (the champion of [https://pages.nist.gov/frvt/reportcards/11/sensetime_005.html FRVT], [https://ibug.doc.ic.ac.uk/resources/masked-face-recognition-challenge-workshop-iccv-21/ ICCV MFR]), the *best video recognition model* (the champion of ActivityNet Challenge [http://activity-net.org/challenges/2020/tasks/guest_kinetics.html/ Kinetics700]), reimplemented the *AI of StarCraft2* ([https://github.com/opendilab/DI-star DI-star]) from scratch, developed an autonomous driving algorithm based on reinforcement learning ([https://github.com/opendilab/DI-drive DI-drive]), and most recently, the *text-to-image AIGC product [https://miaohua.sensetime.com/ SenseMirage ]* (DAU exceeded one million within a week for the first time in SenseTime’s history, earning a special commendation from the CEO). If you are interested in my work or career, please feel free to contact me.
-*Now Hiring Self-motivated Interns! Providing >1000 H-series GPUs!*
+During my six years at [https://www.sensetime.com/cn/ SenseTime Research], I was involved in many projects from scratch. We built the *most reliable face recognition system in the world* at that time (the champion of [https://pages.nist.gov/frvt/reportcards/11/sensetime_005.html FRVT], [https://ibug.doc.ic.ac.uk/resources/masked-face-recognition-challenge-workshop-iccv-21/ ICCV MFR]), the *best video recognition model* (the champion of ActivityNet Challenge [http://activity-net.org/challenges/2020/tasks/guest_kinetics.html/ Kinetics700]), reimplemented the *AI of StarCraft2* ([https://github.com/opendilab/DI-star DI-star]) from scratch, developed an autonomous driving algorithm based on reinforcement learning ([https://github.com/opendilab/DI-drive DI-drive]), and most recently, the *text-to-image AIGC product [https://miaohua.sensetime.com/ SenseMirage ]* (DAU exceeded one million within a week for the first time in SenseTime's history, earning a special commendation from the CEO). \n\n
+Currently, at Meituan-M17 Hong Kong, I am involved in the development of the LongCat series foundation models, such as [https://arxiv.org/abs/2509.01322 LongCat-Flash]. My work focuses on native multimodality, modeling multiple modalities in a unified autoregressive manner. If you are interested in my work or career, please feel free to contact me. *Now Hiring Self-motivated Interns! Providing >1000 H-series GPUs!*
 
 == News
+- \[2026-01\] Two papers accepted to ICLR 2026.
 - \[2025-08\] One paper accepted to EMNLP 2025.
 - \[2025-06\] One paper accepted to ICCV 2025.
 - \[2025-05\] I successfully defended my PhD thesis and officially became Dr. Zhang!
@@ -52,6 +53,8 @@ During my six years at [https://www.sensetime.com/cn/ SenseTime Research], I was
 
 
 === Technical Report 
+- [https://arxiv.org/abs/2509.01322 LongCat-Flash Technical Report] \n
+  Meituan LongCat Team (including *Manyuan Zhang*), et al.
 - [Towards Large-scale Masked Face Recognition] (Top-1 Solution) \n
   *Manyuan Zhang*, Bingqi Ma, Guanglu Song, Yunxiao Wang, Hongsheng Li, Yu Liu
 - [https://arxiv.org/abs/2006.09116/ 1st place solution for AVA-Kinetics Crossover in AcitivityNet Challenge 2020]  (Top-1 Solution) \n
@@ -63,19 +66,27 @@ During my six years at [https://www.sensetime.com/cn/ SenseTime Research], I was
 === Recent Publications 
 \*equal contribition
 
-- LM-Searcher: Cross-domain Neural Architecture Search with LLMs via Unified Numerical Encoding \n
+- [https://arxiv.org/abs/2510.22706 IGGT: Instance-Grounded Geometry Transformer for Semantic 3D Reconstruction] \n
+  Hao Li, Zhengyu Zou, Fangfu Liu, Xuanyang Zhang, Fangzhou Hong, Yukang Cao, Yushi Lan, *Manyuan Zhang*, Gang Yu, Dingwen Zhang, Ziwei Liu \n
+  2026 International Conference on Learning Representations (ICLR)
+
+- [https://arxiv.org/abs/2510.08457 Ares: Multimodal Adaptive Reasoning via Difficulty-aware Token-level Entropy Shaping] \n
+  Shuang Chen, Yue Guo, Yimeng Ye, Shijue Huang, Wenbo Hu, Haoxi Li, *Manyuan Zhang*, Jiayu Chen, Song Guo, Nanyun Peng \n
+  2026 International Conference on Learning Representations (ICLR)
+
+- [https://arxiv.org/abs/2509.05657 LM-Searcher: Cross-domain Neural Architecture Search with LLMs via Unified Numerical Encoding] \n
   Yuxuan Hu, Jihao Liu, Ke Wang, Jinliang Zheng, Weikang Shi, *Manyuan Zhang*, Qi Dou, Rui Liu, Aojun Zhou, Hongsheng Li \n
   2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)
 
-- Lumina-image 2.0: A unified and efficient image generative framework \n
+- [https://arxiv.org/abs/2503.21758 Lumina-image 2.0: A unified and efficient image generative framework] \n
   Qi Qin, Le Zhuo, Yi Xin, Ruoyi Du, Zhen Li, Bin Fu, Yiting Lu, Jiakang Yuan, Xinyue Li, Dongyang Liu, Xiangyang Zhu, *Manyuan Zhang*, Will Beddow, Erwann Millon, Victor Perez, Wenhai Wang, Conghui He, Bo Zhang, Xiaohong Liu, Hongsheng Li, Yu Qiao, Chang Xu, Peng Gao \n
   2025 International Conference on Computer Vision (ICCV)
 
-- Let's Verify and Reinforce Image Generation Step by Step \n
+- [https://arxiv.org/abs/2501.13926 Let's Verify and Reinforce Image Generation Step by Step] \n
   Renrui Zhang, Chengzhuo Tong, Zhizheng Zhao, Ziyu Guo, Haoquan Zhang, *Manyuan Zhang*, Jiaming Liu, Peng Gao, Hongsheng Li \n
   2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 
-- Three Things We Need to Know About Transferring Stable Diffusion to Visual Dense Prediciton Tasks \n
+- [https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05837.pdf Three Things We Need to Know About Transferring Stable Diffusion to Visual Dense Prediciton Tasks] \n
   *Manyuan Zhang*, Guanglu Song, Yu Liu, Hongsheng Li \n
   2024 European Conference on Computer Vision (ECCV)
 
