@@ -16,7 +16,7 @@ During my six years at [https://www.sensetime.com/cn/ SenseTime Research], I was
 Currently, at Meituan-M17 Hong Kong, I am involved in the development of the LongCat series foundation models, such as [https://arxiv.org/abs/2509.01322 LongCat-Flash]. My work focuses on native multimodality, modeling multiple modalities in a unified autoregressive manner. If you are interested in my work or career, please feel free to contact me. *Now Hiring Self-motivated Interns! Providing >1000 H-series GPUs!*
 
 == News
-- \[2026-02\] Six papers accepted to CVPR 2026!
+- \[2026-02\] Five papers accepted to CVPR 2026!
 - \[2026-02\] One paper accepted to 3DV 2026 with Best Paper Award Nomination!
 - \[2026-01\] Two papers accepted to ICLR 2026.
 - \[2025-08\] One paper accepted to EMNLP 2025.
@@ -74,6 +74,9 @@ Currently, at Meituan-M17 Hong Kong, I am involved in the development of the Lon
 - [https://arxiv.org/abs/2512.05965 EditThinker: Unlocking Iterative Reasoning for Any Image Editor] \n
   Hongyu Li, *Manyuan Zhang*{{<sup>+</sup>}}, Dian Zheng, Ziyu Guo, Yimeng Jia, Kaituo Feng, Hao Yu, Yexin Liu, Yan Feng, Peng Pei, Xunliang Cai, Linjiang Huang, Hongsheng Li, Si Liu
 
+- [https://arxiv.org/abs/2512.08294 OpenSubject: Leveraging Video-Derived Identity and Diversity Priors for Subject-driven Image Generation and Manipulation] \n
+  Yexin Liu, *Manyuan Zhang*{{<sup>+</sup>}}, Yueze Wang, Hongyu Li, Dian Zheng, Weiming Zhang, Changsheng Lu, Xunliang Cai, Yan Feng, Peng Pei, Harry Yang
+
 - [https://arxiv.org/abs/2511.22663 Architecture Decoupling is Not All You Need for Unified Multimodal Model] \n
   Dian Zheng, *Manyuan Zhang*{{<sup>+</sup>}}, Hongyu Li, Kai Zou, Hongbo Liu, Ziyu Guo, Kaituo Feng, Yexin Liu, Ying Luo, Yan Feng, Peng Pei, Xunliang Cai, Hongsheng Li
 
@@ -92,10 +95,6 @@ Currently, at Meituan-M17 Hong Kong, I am involved in the development of the Lon
 - [https://arxiv.org/abs/2512.03043 OneThinker: All-in-one Reasoning Model for Image and Video] \n
   Kaituo Feng, *Manyuan Zhang*{{<sup>+</sup>}}, Hongyu Li, Kaixuan Fan, Shuang Chen, Yilei Jiang, Dian Zheng, Peiwen Sun, Yiyuan Zhang, Haoze Sun, Yan Feng, Peng Pei, Xunliang Cai, Xiangyu Yue \n
   2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-
-- [https://arxiv.org/abs/2512.08294 OpenSubject: Leveraging Video-Derived Identity and Diversity Priors for Subject-driven Image Generation and Manipulation] \n
-  Yexin Liu, *Manyuan Zhang*{{<sup>+</sup>}}, Yueze Wang, Hongyu Li, Dian Zheng, Weiming Zhang, Changsheng Lu, Xunliang Cai, Yan Feng, Peng Pei, Harry Yang \n
-  2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR Findings)
 
 - [https://arxiv.org/abs/2510.11718 CodePlot-CoT: Mathematical Visual Reasoning by Thinking with Code-driven Images] \n
   Chengqi Duan, Kaiyue Sun, Rongyao Fang, *Manyuan Zhang*{{<sup>+</sup>}}, Yan Feng, Ying Luo, Yufang Liu, Ke Wang, Peng Pei, Xunliang Cai, Hongsheng Li, Yi Ma, Xihui Liu \n
