@@ -56,6 +56,8 @@ Currently, at Meituan-M17 Hong Kong, I am involved in the development of the Lon
 
 
 === Technical Report 
+- LongCat-Next: Lexicalizing Modalities as Discrete Tokens \n
+  Meituan LongCat Team (including *Manyuan Zhang*), et al.
 - [https://arxiv.org/abs/2509.01322 LongCat-Flash Technical Report] \n
   Meituan LongCat Team (including *Manyuan Zhang*), et al.
 - [Towards Large-scale Masked Face Recognition] (Top-1 Solution) \n
