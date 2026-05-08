@@ -120,6 +120,22 @@ Currently, at Meituan-M17 Hong Kong, I am involved in the development of the Lon
   Shuang Chen, Yue Guo, Yimeng Ye, Shijue Huang, Wenbo Hu, Haoxi Li, *Manyuan Zhang*, Jiayu Chen, Song Guo, Nanyun Peng \n
   2026 International Conference on Learning Representations (ICLR)
 
+- AffIn-Space: Learning Affine-Invariant Representations for 3D Spatial Understanding with MLLMs \n
+  Zhenyu Lu, Liupeng Li, Jinpeng Wang, Haoqian Kang, *Manyuan Zhang*, Yan Feng, Ke Chen, Yaowei Wang \n
+  2026 International Conference on Machine Learning (ICML)
+
+- Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence \n
+  Yuanyuan Gao, Hao Li, Yifei Liu, Xinhao Ji, Yuning Gong, Yuanjun Liao, Fangfu Liu, *Manyuan Zhang*, Yuchen Yang, Dan Xu, Xue Yang, Huaxi Huang, Hongjie Zhang, Ziwei Liu, Xiao Sun \n
+  2026 International Conference on Machine Learning (ICML) {{<font color="red">(Spotlight)</font>}}
+
+- OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention \n
+  Zhangquan Chen, Jiale Tao, Ruihuang Li, Yihao Hu, Ruitao Chen, Zhantao Yang, Xinlei Yu, Haodong Jing, *Manyuan Zhang*, Shuai Shao, Biao Wang, Qinglin Lu, Ruqi Huang \n
+  2026 International Conference on Machine Learning (ICML)
+
+- AlignVid: Taming Visual Dominance via Training-Free Attention Modulation in Text-guided Image-to-Video Generation \n
+  Yexin Liu, Wen-Jie Shu, Zile Huang, Haoze Zheng, Yueze Wang, *Manyuan Zhang*, Jinjing Zhu, Ser-Nam Lim, Harry Yang \n
+  2026 International Conference on Machine Learning (ICML)
+
 - CTR3D: Cross-view Token Reduction for Dense Multi-view Generation \n
   Kunming Luo, Hongyu Yan, Yuan Liu, Zihao Zhang, *Manyuan Zhang*, Wenping Wang, Ping Tan \n
   2026 International Conference on 3D Vision (3DV) {{<font color="red">(Best Paper Award Nomination)</font>}}
