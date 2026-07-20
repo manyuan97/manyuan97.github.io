@@ -58,12 +58,12 @@ Currently, at Meituan-M17 Hong Kong, I am involved in the development of the Lon
 
 
 === Technical Report
-- [https://arxiv.org/abs/2605.25979 LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence] ([https://mp.weixin.qq.com/s/dechFptcXCvF30mfmC3dWA 机器之心]) \n
-  LMMs-Lab (including *Manyuan Zhang*), et al.
 - [https://arxiv.org/abs/2603.27538 LongCat-Next: Lexicalizing Modalities as Discrete Tokens] ([https://mp.weixin.qq.com/s/IzzNLPI9L2tSRvOXniOJ2Q 机器之心]) \n
   Meituan LongCat Team (including *Manyuan Zhang*), et al.
 - [https://arxiv.org/abs/2509.01322 LongCat-Flash Technical Report] ([https://mp.weixin.qq.com/s/InDGGdUmXs6H5KzpXhzyBg 机器之心], [https://mp.weixin.qq.com/s/myqiJWSctD8QAt4BEWQdaA 量子位]) \n
   Meituan LongCat Team (including *Manyuan Zhang*), et al.
+- [https://arxiv.org/abs/2605.25979 LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence] ([https://mp.weixin.qq.com/s/dechFptcXCvF30mfmC3dWA 机器之心]) \n
+  LMMs-Lab (including *Manyuan Zhang*), et al.
 - [Towards Large-scale Masked Face Recognition] (Top-1 Solution) \n
   *Manyuan Zhang*, Bingqi Ma, Guanglu Song, Yunxiao Wang, Hongsheng Li, Yu Liu
 - [https://arxiv.org/abs/2006.09116/ 1st place solution for AVA-Kinetics Crossover in AcitivityNet Challenge 2020]  (Top-1 Solution) \n
@@ -75,13 +75,13 @@ Currently, at Meituan-M17 Hong Kong, I am involved in the development of the Lon
 === Preprint Papers
 \*equal contribution {{<sup>+</sup>}}project lead\/corresponding author
 
-- InterleaveThinker: Reinforcing Agentic Interleaved Generation \n
+- [https://arxiv.org/abs/2606.13679 InterleaveThinker: Reinforcing Agentic Interleaved Generation] \n
   Dian Zheng, Harry Lee, *Manyuan Zhang*{{<sup>+</sup>}}, Kaituo Feng, Zoey Guo, Ray Zhang, Hongsheng Li
 
-- Uni-edit: Intelligent editing is a general task for unified model tuning \n
+- [https://arxiv.org/abs/2605.21487 Uni-edit: Intelligent editing is a general task for unified model tuning] \n
   Dian Zheng, *Manyuan Zhang*{{<sup>+</sup>}}, Hongyu Li, Hongbo Liu, Kai Zou, Kaituo Feng, Hongsheng Li
 
-- UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks \n
+- [https://arxiv.org/abs/2607.08768 UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks] \n
   Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang, *Manyuan Zhang*{{<sup>+</sup>}}, Xihui Liu
 
 - [https://arxiv.org/abs/2512.05965 EditThinker: Unlocking Iterative Reasoning for Any Image Editor] \n
