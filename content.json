@@ -1,0 +1,863 @@
+{
+  "news": [
+    {
+      "date": "2026-08",
+      "html": "Two papers accepted to EMNLP 2026!"
+    },
+    {
+      "date": "2026-06",
+      "html": "Two papers accepted to ECCV 2026!"
+    },
+    {
+      "date": "2026-05",
+      "html": "Four papers accepted to ICML 2026! (1 Spotlight)"
+    },
+    {
+      "date": "2026-04",
+      "html": "Two papers accepted to ACL 2026!"
+    },
+    {
+      "date": "2026-02",
+      "html": "Five papers accepted to CVPR 2026!"
+    },
+    {
+      "date": "2026-02",
+      "html": "One paper accepted to 3DV 2026 with Best Paper Award Nomination!"
+    },
+    {
+      "date": "2026-01",
+      "html": "Two papers accepted to ICLR 2026."
+    },
+    {
+      "date": "2025-08",
+      "html": "One paper accepted to EMNLP 2025."
+    },
+    {
+      "date": "2025-06",
+      "html": "One paper accepted to ICCV 2025."
+    },
+    {
+      "date": "2025-05",
+      "html": "I successfully defended my PhD thesis and officially became Dr. Zhang!"
+    },
+    {
+      "date": "2025-03",
+      "html": "One paper accepted to CVPR 2025."
+    },
+    {
+      "date": "2024-07",
+      "html": "Two papers accepted to ECCV2024."
+    },
+    {
+      "date": "2024-03",
+      "html": "One paper accepted to SIGGRAPH2024."
+    },
+    {
+      "date": "2023-07",
+      "html": "Two paper accepted to ICCV2023."
+    },
+    {
+      "date": "2023-07",
+      "html": "I pass the PhD candidate test."
+    },
+    {
+      "date": "2023-05",
+      "html": "I am invited to be a reviewer for NIPS2023 and ICLR2023."
+    },
+    {
+      "date": "2023-02",
+      "html": "One paper accepted to CVPR 2023."
+    },
+    {
+      "date": "2022-12",
+      "html": "I am invited to be a reviewer for CVPR2023 and ICCV2023."
+    },
+    {
+      "date": "2022-07",
+      "html": "One paper accepted to ECCV 2022."
+    },
+    {
+      "date": "2022-04",
+      "html": "I am invited to be a reviewer for ECCV2022 and NIPS2022."
+    },
+    {
+      "date": "2022-04",
+      "html": "I am invited to ’智东西’ to give a talk about imitation learning in automatic driving."
+    },
+    {
+      "date": "2021-10",
+      "html": "We win three championships of <a href=\"https://ibug.doc.ic.ac.uk/resources/masked-face-recognition-challenge-workshop-iccv-21/\">ICCV 2021 Masked Face Recognition Challenge</a> on <a href=\"http://iccv21-mfr.com/\">glink360k</a> track, <a href=\"http://iccv21-mfr.com/\">unconstrained</a> track and <a href=\"https://competitions.codalab.org/competitions/32478\">Webface260M</a> track. Code and solutions will be released very soon."
+    },
+    {
+      "date": "2021-07",
+      "html": "We release <a href=\"https://github.com/opendilab/DI-drive/\">DI-drive</a>, the decision intelligence platform for autonomous driving simulation. I am responsible for the imitation learning part."
+    },
+    {
+      "date": "2021-07",
+      "html": "One paper accepted to ICCV 2021."
+    },
+    {
+      "date": "2021-05",
+      "html": "We win the championship of <a href=\"https://pages.nist.gov/frvt/reportcards/11/sensetime_005.html\">NIST FRVT 1:1</a>."
+    },
+    {
+      "date": "2020-12",
+      "html": "We win the championship of <a href=\"https://pages.nist.gov/frvt/reportcards/1N/sensetime_005.pdf\">NIST FRVT 1:N</a>."
+    },
+    {
+      "date": "2020-06",
+      "html": "We win 2 championships of <a href=\"http://activity-net.org/\">ActivityNet</a> on the <a href=\"http://activity-net.org/challenges/2020/tasks/guest_ava.html/\">Spatio-temporal Action Localization (AVA)</a> track and the <a href=\"http://activity-net.org/challenges/2020/tasks/guest_kinetics.html/\">Trimmed Activity Recognition (Kinetics 700)</a> track."
+    },
+    {
+      "date": "2020-06",
+      "html": "One paper accepted to ECCV 2020."
+    },
+    {
+      "date": "2020-04",
+      "html": "We release the <a href=\"https://github.com/Sense-X/X-Temporal/\">X-Temporal</a> for easily implement SOTA video understanding methods with PyTorch on multiple machines and GPUs."
+    },
+    {
+      "date": "2019-10",
+      "html": "One paper accepted to ICCV 2019 LFR workshop."
+    },
+    {
+      "date": "2019-10",
+      "html": "We win the championship of <a href=\"http://moments.csail.mit.edu/challenge_iccv_2019.html\">ICCV19 Multi-Moments in Time (MIT) Challenge</a>."
+    },
+    {
+      "date": "2019-10",
+      "html": "We win the championship of <a href=\"https://ibug.doc.ic.ac.uk/resources/lightweight-face-recognition-challenge-workshop/\">ICCV19 Lightweight Face Recognition Challenge</a>."
+    }
+  ],
+  "publications": [
+    {
+      "id": "longcat-next-lexicalizing-modalities-as-discrete-tokens",
+      "title": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
+      "url": "https://arxiv.org/abs/2603.27538",
+      "authors_html": "Meituan LongCat Team (including <strong>Manyuan Zhang</strong>), et al.",
+      "venue": "Technical report",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Technical Report",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/IzzNLPI9L2tSRvOXniOJ2Q"
+        }
+      ],
+      "selected": true,
+      "selected_order": 1,
+      "image": "assets/papers/longcat-next.png",
+      "summary": "A native autoregressive model for text, vision, and audio."
+    },
+    {
+      "id": "longcat-flash-technical-report",
+      "title": "LongCat-Flash Technical Report",
+      "url": "https://arxiv.org/abs/2509.01322",
+      "authors_html": "Meituan LongCat Team (including <strong>Manyuan Zhang</strong>), et al.",
+      "venue": "Technical report",
+      "venue_full": "",
+      "year": 2025,
+      "kind": "Technical Report",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/InDGGdUmXs6H5KzpXhzyBg"
+        },
+        {
+          "label": "量子位",
+          "url": "https://mp.weixin.qq.com/s/myqiJWSctD8QAt4BEWQdaA"
+        }
+      ],
+      "selected": true,
+      "selected_order": 3,
+      "image": "assets/papers/longcat-flash.png",
+      "summary": "An efficient mixture-of-experts foundation model."
+    },
+    {
+      "id": "llava-onevision-2-towards-next-generation-perceptual-intelligence",
+      "title": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence",
+      "url": "https://arxiv.org/abs/2605.25979",
+      "authors_html": "LMMs-Lab (including <strong>Manyuan Zhang</strong>), et al.",
+      "venue": "Technical report",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Technical Report",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/dechFptcXCvF30mfmC3dWA"
+        }
+      ],
+      "selected": true,
+      "selected_order": 2,
+      "image": "assets/papers/onevision2.png",
+      "summary": "Codec-aligned perception for images and long videos."
+    },
+    {
+      "id": "onevision-encoder-codec-aligned-sparsity-as-a-foundational-principle-for-multimodal-intelligenc",
+      "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
+      "url": "https://arxiv.org/abs/2602.08683",
+      "authors_html": "LMMs-Lab (including <strong>Manyuan Zhang</strong>), et al.",
+      "venue": "Technical report",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Technical Report",
+      "distinction": "",
+      "links": [],
+      "selected": false,
+      "image": "assets/papers/onevision-encoder.png",
+      "summary": "Codec-aligned sparse visual encoding for multimodal intelligence."
+    },
+    {
+      "id": "large-scale-masked-face-recognition",
+      "title": "Large-scale Masked Face Recognition",
+      "url": "",
+      "authors_html": "<strong>Manyuan Zhang</strong>, Bingqi Ma, Guanglu Song, Yunxiao Wang, Hongsheng Li, Yu Liu",
+      "venue": "Technical report",
+      "venue_full": "",
+      "year": 2021,
+      "kind": "Technical Report",
+      "distinction": "Top-1 solution",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "1st-place-solution-for-ava-kinetics-crossover-in-activitynet-challenge-2020",
+      "title": "1st place solution for AVA-Kinetics Crossover in ActivityNet Challenge 2020",
+      "url": "https://arxiv.org/abs/2006.09116",
+      "authors_html": "Siyu Chen, Junting Pan, Guanglu Song, <strong>Manyuan Zhang</strong>, Hao Shao, Ziyi Lin, Jing Shao, Hongsheng Li, Yu Liu",
+      "venue": "Technical report",
+      "venue_full": "",
+      "year": 2020,
+      "kind": "Technical Report",
+      "distinction": "Top-1 solution",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "top-1-solution-of-multi-moments-in-time-challenge-2019",
+      "title": "Top-1 Solution of Multi-Moments in Time Challenge 2019",
+      "url": "https://arxiv.org/abs/2003.05837",
+      "authors_html": "<strong>Manyuan Zhang</strong>, Hao Shao, Guanglu Song, Yu Liu, Junjie Yan",
+      "venue": "Technical report",
+      "venue_full": "",
+      "year": 2020,
+      "kind": "Technical Report",
+      "distinction": "Top-1 solution",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "interleavethinker-reinforcing-agentic-interleaved-generation",
+      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+      "url": "https://arxiv.org/abs/2606.13679",
+      "authors_html": "Dian Zheng, Harry Lee, <strong>Manyuan Zhang</strong><sup>+</sup>, Kaituo Feng, Zoey Guo, Ray Zhang, Hongsheng Li",
+      "venue": "Preprint",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Preprint Papers",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "uni-edit-intelligent-editing-is-a-general-task-for-unified-model-tuning",
+      "title": "Uni-edit: Intelligent editing is a general task for unified model tuning",
+      "url": "https://arxiv.org/abs/2605.21487",
+      "authors_html": "Dian Zheng, <strong>Manyuan Zhang</strong><sup>+</sup>, Hongyu Li, Hongbo Liu, Kai Zou, Kaituo Feng, Hongsheng Li",
+      "venue": "Preprint",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Preprint Papers",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "uniclawbench-a-universal-benchmark-for-proactive-agents-on-real-world-tasks",
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "url": "https://arxiv.org/abs/2607.08768",
+      "authors_html": "Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang, <strong>Manyuan Zhang</strong><sup>+</sup>, Xihui Liu",
+      "venue": "Preprint",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Preprint Papers",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "editthinker-unlocking-iterative-reasoning-for-any-image-editor",
+      "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
+      "url": "https://arxiv.org/abs/2512.05965",
+      "authors_html": "Hongyu Li, <strong>Manyuan Zhang</strong><sup>+</sup>, Dian Zheng, Ziyu Guo, Yimeng Jia, Kaituo Feng, Hao Yu, Yexin Liu, Yan Feng, Peng Pei, Xunliang Cai, Linjiang Huang, Hongsheng Li, Si Liu",
+      "venue": "Preprint",
+      "venue_full": "",
+      "year": 2025,
+      "kind": "Preprint Papers",
+      "distinction": "",
+      "links": [],
+      "selected": true,
+      "selected_order": 7,
+      "image": "assets/papers/editthinker.png",
+      "summary": "Iterative reasoning and refinement for image editing."
+    },
+    {
+      "id": "architecture-decoupling-is-not-all-you-need-for-unified-multimodal-model",
+      "title": "Architecture Decoupling is Not All You Need for Unified Multimodal Model",
+      "url": "https://arxiv.org/abs/2511.22663",
+      "authors_html": "Dian Zheng, <strong>Manyuan Zhang</strong><sup>+</sup>, Hongyu Li, Kai Zou, Hongbo Liu, Ziyu Guo, Kaituo Feng, Yexin Liu, Ying Luo, Yan Feng, Peng Pei, Xunliang Cai, Hongsheng Li",
+      "venue": "Preprint",
+      "venue_full": "",
+      "year": 2025,
+      "kind": "Preprint Papers",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/cfkLqkwZdQeo9wH2R3ZNAA"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": "macro-advancing-multi-reference-image-generation-with-structured-long-context-data",
+      "title": "MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data",
+      "url": "https://arxiv.org/abs/2603.25319",
+      "authors_html": "Zhekai Chen, Yuqing Wang, <strong>Manyuan Zhang</strong><sup>+</sup>, Xihui Liu",
+      "venue": "Preprint",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Preprint Papers",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "gen-searcher-reinforcing-agentic-search-for-image-generation",
+      "title": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
+      "url": "https://arxiv.org/abs/2603.28767",
+      "authors_html": "Kaituo Feng, <strong>Manyuan Zhang</strong><sup>+</sup>, Shuang Chen, Yunlong Lin, Kaixuan Fan, Yilei Jiang, Hongyu Li, Dian Zheng, Chenyang Wang, Xiangyu Yue",
+      "venue": "Preprint",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Preprint Papers",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/HhwnxNDMWbZEhq_7PGhVwQ"
+        }
+      ],
+      "selected": true,
+      "selected_order": 4,
+      "image": "assets/papers/gen-searcher.png",
+      "summary": "Search-grounded image generation with agentic reasoning."
+    },
+    {
+      "id": "stable-mm-r1-anchoring-multimodal-reasoning-dynamics-via-entropy-guided-stratification",
+      "title": "Stable-MM-R1: Anchoring Multimodal Reasoning Dynamics via Entropy-Guided Stratification",
+      "url": "",
+      "authors_html": "Yimeng Ye, Shuang Chen, Wenxuan Huang, <strong>Manyuan Zhang</strong>, Kaituo Feng, Zhangquan Chen, Jiayu Chen, Yucheng Zhou, YiCheng Xiao, ZhiYuan Feng, TIANYU SHI",
+      "venue": "EMNLP",
+      "venue_full": "2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "video-mme-logical-a-controlled-diagnostic-benchmark-for-video-temporal-logical-reasoning",
+      "title": "Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning",
+      "url": "https://arxiv.org/abs/2606.27828",
+      "authors_html": "Hohin Kwan, Hongyu Li, Ray Zhang, <strong>Manyuan Zhang</strong>, Xianghao Kong, Anyi Rao, Jiahao Xie, Si Liu",
+      "venue": "EMNLP",
+      "venue_full": "2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "opensubject-leveraging-video-derived-identity-and-diversity-priors-for-subject-driven-image-gen",
+      "title": "OpenSubject: Leveraging Video-Derived Identity and Diversity Priors for Subject-driven Image Generation and Manipulation",
+      "url": "https://arxiv.org/abs/2512.08294",
+      "authors_html": "Yexin Liu, <strong>Manyuan Zhang</strong><sup>+</sup>, Yueze Wang, Hongyu Li, Dian Zheng, Weiming Zhang, Changsheng Lu, Xunliang Cai, Yan Feng, Peng Pei, Harry Yang",
+      "venue": "ECCV",
+      "venue_full": "2026 European Conference on Computer Vision (ECCV)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "autoweather4d-autonomous-driving-video-weather-conversion-via-g-buffer-dual-pass-editing",
+      "title": "AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing",
+      "url": "https://arxiv.org/abs/2603.26546",
+      "authors_html": "Tianyu Liu, Weitao Xiong, Kunming Luo, <strong>Manyuan Zhang</strong>, Peng Li, Yuan Liu, Ping Tan",
+      "venue": "ECCV",
+      "venue_full": "2026 European Conference on Computer Vision (ECCV)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "exploring-reasoning-reward-model-for-agents",
+      "title": "Exploring Reasoning Reward Model for Agents",
+      "url": "https://arxiv.org/abs/2601.22154",
+      "authors_html": "Kaixuan Fan, Kaituo Feng, <strong>Manyuan Zhang</strong><sup>+</sup>, Tianshuo Peng, Zhixun Li, Yilei Jiang, Shuang Chen, Peng Pei, Xunliang Cai, Xiangyu Yue<sup>+</sup>",
+      "venue": "ACL",
+      "venue_full": "2026 Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/h1Ffc1O-DboqfavR3ANiPg"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": "adatooler-v-adaptive-tool-use-for-images-and-videos",
+      "title": "AdaTooler-V: Adaptive Tool-Use for Images and Videos",
+      "url": "https://arxiv.org/abs/2512.16918",
+      "authors_html": "Chaoyang Wang, Kaituo Feng, Dongyang Chen, Zhongyu Wang, Zhixun Li, Sicheng Gao, Meng Meng, Xu Zhou, <strong>Manyuan Zhang</strong>, Yuzhang Shang, Xiangyu Yue<sup>+</sup>",
+      "venue": "ACL",
+      "venue_full": "2026 Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "量子位",
+          "url": "https://mp.weixin.qq.com/s/qi3q9juiS5GgJMhnFuxqWg"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": "thinking-while-generating-interleaving-textual-reasoning-throughout-visual-generation",
+      "title": "Thinking-while-Generating: Interleaving Textual Reasoning throughout Visual Generation",
+      "url": "https://arxiv.org/abs/2511.16671",
+      "authors_html": "Ziyu Guo, Renrui Zhang<sup>+</sup>, Hongyu Li, <strong>Manyuan Zhang</strong><sup>+</sup>, Xinyan Chen, Sifan Wang, Yan Feng, Peng Pei, Pheng-Ann Heng<sup>+</sup>",
+      "venue": "CVPR",
+      "venue_full": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "量子位",
+          "url": "https://mp.weixin.qq.com/s/Bvr-ixLNuIIismHLIkxNdw"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": "think-with-3d-geometric-imagination-grounded-spatial-reasoning-from-limited-views",
+      "title": "Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views",
+      "url": "https://arxiv.org/abs/2510.18632",
+      "authors_html": "Zhangquan Chen, <strong>Manyuan Zhang</strong><sup>+</sup>, Xinlei Yu, Xufang Luo, Mingze Sun, Zihao Pan, Yan Feng, Peng Pei, Xunliang Cai, Ruqi Huang<sup>+</sup>",
+      "venue": "CVPR",
+      "venue_full": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/wMJ2KGBnEbDze0hoS4hCaQ"
+        }
+      ],
+      "selected": true,
+      "selected_order": 5,
+      "image": "assets/papers/think3d.png",
+      "summary": "Grounding spatial reasoning in 3D geometric imagination."
+    },
+    {
+      "id": "onethinker-all-in-one-reasoning-model-for-image-and-video",
+      "title": "OneThinker: All-in-one Reasoning Model for Image and Video",
+      "url": "https://arxiv.org/abs/2512.03043",
+      "authors_html": "Kaituo Feng, <strong>Manyuan Zhang</strong><sup>+</sup>, Hongyu Li, Kaixuan Fan, Shuang Chen, Yilei Jiang, Dian Zheng, Peiwen Sun, Yiyuan Zhang, Haoze Sun, Yan Feng, Peng Pei, Xunliang Cai, Xiangyu Yue<sup>+</sup>",
+      "venue": "CVPR",
+      "venue_full": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "量子位",
+          "url": "https://mp.weixin.qq.com/s/8_k-Clf9JK9RRpQQbZ6pcQ"
+        }
+      ],
+      "selected": true,
+      "selected_order": 6,
+      "image": "assets/papers/onethinker.png",
+      "summary": "Unified reasoning across image and video understanding."
+    },
+    {
+      "id": "codeplot-cot-mathematical-visual-reasoning-by-thinking-with-code-driven-images",
+      "title": "CodePlot-CoT: Mathematical Visual Reasoning by Thinking with Code-driven Images",
+      "url": "https://arxiv.org/abs/2510.11718",
+      "authors_html": "Chengqi Duan, Kaiyue Sun, Rongyao Fang, <strong>Manyuan Zhang</strong><sup>+</sup>, Yan Feng, Ying Luo, Yufang Liu, Ke Wang, Peng Pei, Xunliang Cai, Hongsheng Li, Yi Ma, Xihui Liu<sup>+</sup>",
+      "venue": "CVPR Findings",
+      "venue_full": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR Findings)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "are-video-models-ready-as-zero-shot-reasoners-an-empirical-study-with-the-mme-cof-benchmark",
+      "title": "Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-CoF Benchmark",
+      "url": "https://arxiv.org/abs/2510.26802",
+      "authors_html": "Ziyu Guo, Xinyan Chen, Renrui Zhang, Ruichuan An, Yu Qi, Dongzhi Jiang, Xiangtai Li, <strong>Manyuan Zhang</strong>, Hongsheng Li, Pheng-Ann Heng",
+      "venue": "CVPR Findings",
+      "venue_full": "2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR Findings)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/iRwvuHboZMbVHZRUbX0low"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": "iggt-instance-grounded-geometry-transformer-for-semantic-3d-reconstruction",
+      "title": "IGGT: Instance-Grounded Geometry Transformer for Semantic 3D Reconstruction",
+      "url": "https://arxiv.org/abs/2510.22706",
+      "authors_html": "Hao Li, Zhengyu Zou, Fangfu Liu, Xuanyang Zhang, Fangzhou Hong, Yukang Cao, Yushi Lan, <strong>Manyuan Zhang</strong>, Gang Yu, Dingwen Zhang, Ziwei Liu",
+      "venue": "ICLR",
+      "venue_full": "2026 International Conference on Learning Representations (ICLR)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "ares-multimodal-adaptive-reasoning-via-difficulty-aware-token-level-entropy-shaping",
+      "title": "Ares: Multimodal Adaptive Reasoning via Difficulty-aware Token-level Entropy Shaping",
+      "url": "https://arxiv.org/abs/2510.08457",
+      "authors_html": "Shuang Chen, Yue Guo, Yimeng Ye, Shijue Huang, Wenbo Hu, Haoxi Li, <strong>Manyuan Zhang</strong>, Jiayu Chen, Song Guo, Nanyun Peng",
+      "venue": "ICLR",
+      "venue_full": "2026 International Conference on Learning Representations (ICLR)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "affin-space-learning-affine-invariant-representations-for-3d-spatial-understanding-with-mllms",
+      "title": "AffIn-Space: Learning Affine-Invariant Representations for 3D Spatial Understanding with MLLMs",
+      "url": "https://icml.cc/virtual/2026/poster/63168",
+      "authors_html": "Zhenyu Lu, Liupeng Li, Jinpeng Wang, Haoqian Kang, <strong>Manyuan Zhang</strong>, Yan Feng, Ke Chen, Yaowei Wang",
+      "venue": "ICML",
+      "venue_full": "2026 International Conference on Machine Learning (ICML)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "holi-spatial-evolving-video-streams-into-holistic-3d-spatial-intelligence",
+      "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence",
+      "url": "https://arxiv.org/abs/2603.07660",
+      "authors_html": "Yuanyuan Gao, Hao Li, Yifei Liu, Xinhao Ji, Yuning Gong, Yuanjun Liao, Fangfu Liu, <strong>Manyuan Zhang</strong>, Yuchen Yang, Dan Xu, Xue Yang, Huaxi Huang, Hongjie Zhang, Ziwei Liu, Xiao Sun",
+      "venue": "ICML",
+      "venue_full": "2026 International Conference on Machine Learning (ICML) (Spotlight)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "Spotlight",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "omnivideo-r1-reinforcing-audio-visual-reasoning-with-query-intention-and-modality-attention",
+      "title": "OmniVideo-R1: Reinforcing Audio-visual Reasoning with Query Intention and Modality Attention",
+      "url": "https://arxiv.org/abs/2602.05847",
+      "authors_html": "Zhangquan Chen, Jiale Tao, Ruihuang Li, Yihao Hu, Ruitao Chen, Zhantao Yang, Xinlei Yu, Haodong Jing, <strong>Manyuan Zhang</strong>, Shuai Shao, Biao Wang, Qinglin Lu, Ruqi Huang",
+      "venue": "ICML",
+      "venue_full": "2026 International Conference on Machine Learning (ICML)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "alignvid-taming-visual-dominance-via-training-free-attention-modulation-in-text-guided-image-to",
+      "title": "AlignVid: Taming Visual Dominance via Training-Free Attention Modulation in Text-guided Image-to-Video Generation",
+      "url": "https://arxiv.org/abs/2512.01334",
+      "authors_html": "Yexin Liu, Wen-Jie Shu, Zile Huang, Haoze Zheng, Yueze Wang, <strong>Manyuan Zhang</strong>, Jinjing Zhu, Ser-Nam Lim, Harry Yang",
+      "venue": "ICML",
+      "venue_full": "2026 International Conference on Machine Learning (ICML)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "ctr3d-cross-view-token-reduction-for-dense-multi-view-generation",
+      "title": "CTR3D: Cross-view Token Reduction for Dense Multi-view Generation",
+      "url": "https://openreview.net/forum?id=3rJQj0xZJv",
+      "authors_html": "Kunming Luo, Hongyu Yan, Yuan Liu, Zihao Zhang, <strong>Manyuan Zhang</strong>, Wenping Wang, Ping Tan",
+      "venue": "3DV",
+      "venue_full": "2026 International Conference on 3D Vision (3DV) (Best Paper Award Nomination)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "Best Paper Award Nomination",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "lm-searcher-cross-domain-neural-architecture-search-with-llms-via-unified-numerical-encoding",
+      "title": "LM-Searcher: Cross-domain Neural Architecture Search with LLMs via Unified Numerical Encoding",
+      "url": "https://arxiv.org/abs/2509.05657",
+      "authors_html": "Yuxuan Hu, Jihao Liu, Ke Wang, Jinliang Zheng, Weikang Shi, <strong>Manyuan Zhang</strong>, Qi Dou, Rui Liu, Aojun Zhou, Hongsheng Li",
+      "venue": "EMNLP",
+      "venue_full": "2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "year": 2025,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "lumina-image-2-0-a-unified-and-efficient-image-generative-framework",
+      "title": "Lumina-image 2.0: A unified and efficient image generative framework",
+      "url": "https://arxiv.org/abs/2503.21758",
+      "authors_html": "Qi Qin, Le Zhuo, Yi Xin, Ruoyi Du, Zhen Li, Bin Fu, Yiting Lu, Jiakang Yuan, Xinyue Li, Dongyang Liu, Xiangyang Zhu, <strong>Manyuan Zhang</strong>, Will Beddow, Erwann Millon, Victor Perez, Wenhai Wang, Conghui He, Bo Zhang, Xiaohong Liu, Hongsheng Li, Yu Qiao, Chang Xu, Peng Gao",
+      "venue": "ICCV",
+      "venue_full": "2025 International Conference on Computer Vision (ICCV)",
+      "year": 2025,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "let-s-verify-and-reinforce-image-generation-step-by-step",
+      "title": "Let's Verify and Reinforce Image Generation Step by Step",
+      "url": "https://arxiv.org/abs/2501.13926",
+      "authors_html": "Renrui Zhang, Chengzhuo Tong, Zhizheng Zhao, Ziyu Guo, Haoquan Zhang, <strong>Manyuan Zhang</strong>, Jiaming Liu, Peng Gao, Hongsheng Li",
+      "venue": "CVPR",
+      "venue_full": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": 2025,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/CTpDAzzk5mcXtQrCpTJs1Q"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "id": "three-things-we-need-to-know-about-transferring-stable-diffusion-to-visual-dense-prediction-tas",
+      "title": "Three Things We Need to Know About Transferring Stable Diffusion to Visual Dense Prediction Tasks",
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05837.pdf",
+      "authors_html": "<strong>Manyuan Zhang</strong>, Guanglu Song, Yu Liu, Hongsheng Li",
+      "venue": "ECCV",
+      "venue_full": "2024 European Conference on Computer Vision (ECCV)",
+      "year": 2024,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "deep-reward-supervisions-for-tuning-text-to-image-diffusion-models",
+      "title": "Deep Reward Supervisions for Tuning Text-to-Image Diffusion Models",
+      "url": "https://arxiv.org/abs/2405.00760",
+      "authors_html": "Xiaoshi Wu, Yiming Hao, <strong>Manyuan Zhang</strong>, Keqiang Sun, Zhaoyang Huang, Guanglu Song, Yu Liu, and Hongsheng Li",
+      "venue": "ECCV",
+      "venue_full": "2024 European Conference on Computer Vision (ECCV)",
+      "year": 2024,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "motion-i2v-consistent-and-controllable-image-to-video-generation-with-explicit-motion-modeling",
+      "title": "Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling",
+      "url": "https://arxiv.org/abs/2401.15977",
+      "authors_html": "Xiaoyu Shi, Zhaoyang Huang, Fu-Yun Wang, Weikang Bian, Dasong Li, Yi Zhang, <strong>Manyuan Zhang</strong>, Ka Chun Cheung, Simon See, Hongwei Qin, Jifeng Dai, Hongsheng Li ",
+      "venue": "SIGGRAPH",
+      "venue_full": "2024 ACM SIGGRAPH",
+      "year": 2024,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": true,
+      "selected_order": 8,
+      "image": "assets/papers/motion-i2v.png",
+      "summary": "Controllable image-to-video generation with explicit motion."
+    },
+    {
+      "id": "decoupled-detr-spatially-disentangling-localization-and-classification-for-improved-end-to-end-",
+      "title": "Decoupled DETR: Spatially Disentangling Localization and Classification for Improved End-to-End Object Detection",
+      "url": "https://arxiv.org/abs/2310.15955",
+      "authors_html": "<strong>Manyuan Zhang</strong>, Guanglu Song, Yu Liu, Hongsheng Li",
+      "venue": "ICCV",
+      "venue_full": "2023 International Conference on Computer Vision (ICCV)",
+      "year": 2023,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": true,
+      "selected_order": 9,
+      "image": "assets/papers/decoupled-detr.png",
+      "summary": "Disentangling localization and classification in object detection."
+    },
+    {
+      "id": "videoflow-exploiting-temporal-cues-for-multi-frame-optical-flow-estimation",
+      "title": "VideoFlow: Exploiting Temporal Cues for Multi-frame Optical Flow Estimation",
+      "url": "https://arxiv.org/abs/2303.08340",
+      "authors_html": "Xiaoyu Shi, Zhaoyang Huang, Weikang Bian, Dasong Li, <strong>Manyuan Zhang</strong>, Ka Chun Cheung, Simon See, Hongwei Qin, Jifeng Dai, Hongsheng Li",
+      "venue": "ICCV",
+      "venue_full": "2023 International Conference on Computer Vision (ICCV)",
+      "year": 2023,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "flowformer-masked-cost-volume-autoencoding-for-pretraining-optical-flow-estimation",
+      "title": "FlowFormer++: Masked Cost Volume Autoencoding for Pretraining Optical Flow Estimation",
+      "url": "https://arxiv.org/abs/2303.01237",
+      "authors_html": "Xiaoyu Shi, Zhaoyang Huang, Dasong Li, <strong>Manyuan Zhang</strong>, Ka Chun Cheung, Simon See, Hongwei Qin, Jifeng Dai, Hongsheng Li",
+      "venue": "CVPR",
+      "venue_full": "2023 The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)",
+      "year": 2023,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "towards-robust-face-recognition-with-comprehensive-search",
+      "title": "Towards Robust Face Recognition with Comprehensive Search",
+      "url": "https://arxiv.org/abs/2208.13600",
+      "authors_html": "<strong>Manyuan Zhang</strong>, Guanglu Song, Yu Liu, Hongsheng Li",
+      "venue": "ECCV",
+      "venue_full": "2022 European Conference on Computer Vision (ECCV)",
+      "year": 2022,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "switchable-k-class-hyperplanes-for-noise-robust-representation-learning",
+      "title": "Switchable K-class Hyperplanes for Noise-robust Representation Learning",
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Switchable_K-Class_Hyperplanes_for_Noise-Robust_Representation_Learning_ICCV_2021_paper.pdf",
+      "authors_html": "Boxiao Liu, Guanglu Song, <strong>Manyuan Zhang</strong>, Haihang You, Yu Liu",
+      "venue": "ICCV",
+      "venue_full": "2021 International Conference on Computer Vision (ICCV)",
+      "year": 2021,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "discriminability-distillation-in-group-representation-learning",
+      "title": "Discriminability Distillation in Group Representation Learning",
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550001.pdf",
+      "authors_html": "<strong>Manyuan Zhang</strong>, Guanglu Song, Hang Zhou, Yu Liu",
+      "venue": "ECCV",
+      "venue_full": "2020 European Conference on Computer Vision (ECCV)",
+      "year": 2020,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "towards-flops-constrained-face-recognition",
+      "title": "Towards Flops-constrained Face Recognition",
+      "url": "https://openaccess.thecvf.com/content_ICCVW_2019/papers/LSR/Liu_Towards_Flops-Constrained_Face_Recognition_ICCVW_2019_paper.pdf",
+      "authors_html": "Yu Liu*, Guanglu Song*, <strong>Manyuan Zhang*</strong>, Jihao Liu*, Yucong Zhou, Junjie Yan",
+      "venue": "ICCV Workshop",
+      "venue_full": "2019 ICCV Lightweight Face Recognition Challenge & Workshop",
+      "year": 2019,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "tensor-sensing-for-rf-tomographic-imaging",
+      "title": "Tensor sensing for RF tomographic imaging",
+      "url": "https://ieeexplore.ieee.org/document/8486609",
+      "authors_html": "Tao Deng, Feng Qian, Xiao-Yang Liu, <strong>Manyuan Zhang</strong>, Anwar Walid",
+      "venue": "ICME",
+      "venue_full": "2018 IEEE International Conference on Multimedia and Expo (ICME)",
+      "year": 2018,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "privacy-preserving-sensory-data-recovery",
+      "title": "Privacy-preserving sensory data recovery",
+      "url": "https://arxiv.org/pdf/1803.10943.pdf",
+      "authors_html": "Cai Chen, <strong>Manyuan Zhang</strong>, Huanzhi Zhang, Zhenyun Huang, Yong Li",
+      "venue": "TrustCom",
+      "venue_full": "2018 17th IEEE International Conference On Trust, Security And Privacy In Computing And Communications",
+      "year": 2018,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    }
+  ],
+  "awards": [
+    "Won the <strong>1st</strong> place in CVPR21 Masked Face Recognition Challenge (<a href=\"https://www.face-benchmark.org/challenge.html/\">WebFace260M</a>, <a href=\"https://insightface.ai/mfr21/\">InsightFace Unconstrained</a> and <a href=\"https://insightface.ai/mfr21\">InsightFace glint360k</a> track)",
+    "Won the <strong>1st</strong> place in CVPR20 ActivityNet Challenge (<a href=\"http://activity-net.org/challenges/2020/tasks/guest_kinetics.html/\">Kinetics700</a> track and <a href=\"https://www.youtube.com/watch?v=zJPEmG3LCH4&amp;list=PLw6H4u-XW8siSxqdRVcD5aBn3OTuA7M7x/\">AVA track</a>)",
+    "Won the <strong>1st</strong> place in NIST FRVT held by US government (<a href=\"https://github.com/usnistgov/frvt/blob/nist-pages/reports/11/frvt_11_report_2022_07_29.pdf\">1:1 Verification</a> and <a href=\"https://github.com/usnistgov/frvt/blob/nist-pages/reports/1N/frvt_1N_report_2022_07_28.pdf\">1:N Identification</a>)",
+    "Won the <strong>1st</strong> place in <a href=\"http://moments.csail.mit.edu/results2019.html/\">ICCV19 Multi-Moments in Time (MIT) Challenge</a>",
+    "Won the <strong>1st</strong> place in <a href=\"https://insightface.ai/lfr19/\">ICCV19 Lightweight Face Recognition Challenge</a>"
+  ],
+  "projects": [
+    {
+      "title": "X-Temporal",
+      "url": "https://github.com/Sense-X/X-Temporal/",
+      "description": "Easily implement SOTA video understanding methods with PyTorch on multiple machines and GPU."
+    },
+    {
+      "title": "DI-drive",
+      "url": "https://github.com/opendilab/DI-drive/",
+      "description": "Decision Intelligence Platform for Autonomous Driving simulation."
+    }
+  ],
+  "tech_reports": [
+    "longcat-next-lexicalizing-modalities-as-discrete-tokens",
+    "llava-onevision-2-towards-next-generation-perceptual-intelligence",
+    "longcat-flash-technical-report",
+    "onevision-encoder-codec-aligned-sparsity-as-a-foundational-principle-for-multimodal-intelligenc"
+  ]
+}
