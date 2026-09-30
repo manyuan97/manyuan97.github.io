@@ -1,6 +1,10 @@
 {
   "news": [
     {
+      "date": "2026-09",
+      "html": "Five papers accepted to NeurIPS 2026!"
+    },
+    {
       "date": "2026-08",
       "html": "Two papers accepted to EMNLP 2026!"
     },
@@ -131,6 +135,77 @@
   ],
   "publications": [
     {
+      "id": "unify-agent-a-unified-multimodal-agent-for-world-grounded-image-synthesis",
+      "title": "Unify-Agent: A Unified Multimodal Agent for World-Grounded Image Synthesis",
+      "url": "https://arxiv.org/abs/2603.29620",
+      "authors_html": "Shuang Chen, Quanxin Shou, Hangting Chen, Yucheng Zhou, Kaituo Feng, Wenbo Hu, YiFan Zhang, Yunlong Lin, Wenxuan Huang, Mingyang Song, Dasen Dai, Bolin Jiang, <strong>Manyuan Zhang</strong>, Yu Cheng, Nanyun Peng",
+      "authors_short_html": "Shuang Chen, Quanxin Shou, Hangting Chen, …, <strong>Manyuan Zhang</strong>, Yu Cheng, Nanyun Peng",
+      "venue": "NeurIPS",
+      "venue_full": "2026 Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "vum-visual-unified-models-for-image-generation-and-perception",
+      "title": "VUM: Visual Unified Models for Image Generation and Perception",
+      "url": "",
+      "authors_html": "ZiDong Wang, Yiyuan Zhang, Xiaoyu Yue, Xiangyuan Xue, Zhangquan Chen, <strong>Manyuan Zhang</strong><sup>+</sup>, Wanli Ouyang",
+      "venue": "NeurIPS",
+      "venue_full": "2026 Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [],
+      "selected": false
+    },
+    {
+      "id": "gen-searcher-reinforcing-agentic-search-for-image-generation",
+      "title": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
+      "url": "https://arxiv.org/abs/2603.28767",
+      "authors_html": "Kaituo Feng, <strong>Manyuan Zhang</strong><sup>+</sup>, Shuang Chen, Yunlong Lin, Kaixuan Fan, Yilei Jiang, Hongyu Li, Dian Zheng, Chenyang Wang, Xiangyu Yue",
+      "venue": "NeurIPS",
+      "venue_full": "2026 Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "机器之心",
+          "url": "https://mp.weixin.qq.com/s/HhwnxNDMWbZEhq_7PGhVwQ"
+        }
+      ],
+      "selected": true,
+      "selected_order": 4,
+      "image": "assets/papers/gen-searcher.png",
+      "summary": "Search-grounded image generation with agentic reasoning.",
+      "authors_short_html": "Kaituo Feng, <strong>Manyuan Zhang</strong><sup>+</sup>, Shuang Chen, …, Xiangyu Yue"
+    },
+    {
+      "id": "uniclawbench-a-universal-benchmark-for-proactive-agents-on-real-world-tasks",
+      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+      "url": "https://arxiv.org/abs/2607.08768",
+      "authors_html": "Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang, <strong>Manyuan Zhang</strong><sup>+</sup>, Xihui Liu",
+      "venue": "NeurIPS",
+      "venue_full": "2026 Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": 2026,
+      "kind": "Recent Publications",
+      "distinction": "",
+      "links": [
+        {
+          "label": "Project",
+          "url": "https://uniclawbench.github.io/"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/HKU-MMLab/UniClawBench"
+        }
+      ],
+      "selected": false
+    },
+    {
       "id": "longcat-next-lexicalizing-modalities-as-discrete-tokens",
       "title": "LongCat-Next: Lexicalizing Modalities as Discrete Tokens",
       "url": "https://arxiv.org/abs/2603.27538",
@@ -201,16 +276,17 @@
       "id": "onevision-encoder-codec-aligned-sparsity-as-a-foundational-principle-for-multimodal-intelligenc",
       "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
       "url": "https://arxiv.org/abs/2602.08683",
-      "authors_html": "LMMs-Lab (including <strong>Manyuan Zhang</strong>), et al.",
-      "venue": "Technical report",
-      "venue_full": "",
+      "authors_html": "Feilong Tang, Xiang An, Yunyao Yan, Yin Xie, Kaicheng Yang, Yifei Shen, Yuanhan Zhang, Shikun Feng, Chunyuan Li, Changrui Chen, Huajie Tan, Ming Hu, <strong>Manyuan Zhang</strong>, Bo Li, Ziyong Feng, Ziwei Liu, Zongyuan Ge, Jiankang Deng",
+      "venue": "NeurIPS",
+      "venue_full": "2026 Conference on Neural Information Processing Systems (NeurIPS)",
       "year": 2026,
-      "kind": "Technical Report",
+      "kind": "Recent Publications",
       "distinction": "",
       "links": [],
       "selected": false,
       "image": "assets/papers/onevision-encoder.png",
-      "summary": "Codec-aligned sparse visual encoding for multimodal intelligence."
+      "summary": "Codec-aligned sparse visual encoding for multimodal intelligence.",
+      "authors_short_html": "Feilong Tang, Xiang An, Yunyao Yan, …, <strong>Manyuan Zhang</strong>, …, Jiankang Deng"
     },
     {
       "id": "large-scale-masked-face-recognition",
@@ -278,19 +354,6 @@
       "selected": false
     },
     {
-      "id": "uniclawbench-a-universal-benchmark-for-proactive-agents-on-real-world-tasks",
-      "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
-      "url": "https://arxiv.org/abs/2607.08768",
-      "authors_html": "Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang, <strong>Manyuan Zhang</strong><sup>+</sup>, Xihui Liu",
-      "venue": "Preprint",
-      "venue_full": "",
-      "year": 2026,
-      "kind": "Preprint Papers",
-      "distinction": "",
-      "links": [],
-      "selected": false
-    },
-    {
       "id": "editthinker-unlocking-iterative-reasoning-for-any-image-editor",
       "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
       "url": "https://arxiv.org/abs/2512.05965",
@@ -336,27 +399,6 @@
       "distinction": "",
       "links": [],
       "selected": false
-    },
-    {
-      "id": "gen-searcher-reinforcing-agentic-search-for-image-generation",
-      "title": "Gen-Searcher: Reinforcing Agentic Search for Image Generation",
-      "url": "https://arxiv.org/abs/2603.28767",
-      "authors_html": "Kaituo Feng, <strong>Manyuan Zhang</strong><sup>+</sup>, Shuang Chen, Yunlong Lin, Kaixuan Fan, Yilei Jiang, Hongyu Li, Dian Zheng, Chenyang Wang, Xiangyu Yue",
-      "venue": "Preprint",
-      "venue_full": "",
-      "year": 2026,
-      "kind": "Preprint Papers",
-      "distinction": "",
-      "links": [
-        {
-          "label": "机器之心",
-          "url": "https://mp.weixin.qq.com/s/HhwnxNDMWbZEhq_7PGhVwQ"
-        }
-      ],
-      "selected": true,
-      "selected_order": 4,
-      "image": "assets/papers/gen-searcher.png",
-      "summary": "Search-grounded image generation with agentic reasoning."
     },
     {
       "id": "stable-mm-r1-anchoring-multimodal-reasoning-dynamics-via-entropy-guided-stratification",

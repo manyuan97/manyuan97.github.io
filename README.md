@@ -11,7 +11,7 @@
 - `assets/papers/`：精选论文插图；来源见该目录的 `SOURCES.md`。
 - `assets/fonts/`：本地 Lato 字体及其 OFL 许可证。
 
-每篇论文的 `selected` 决定是否默认显示，`selected_order` 控制精选顺序。`image` 和 `summary` 可选；所有论文都可通过 All 或年份筛选查看。`authors_html` 支持加粗姓名和贡献标记。`tech_reports` 使用论文 `id` 引用 Tech Report & Projects 区块中的条目；这些条目不会重复出现在 Research 列表中。Research 支持 All、2026、2025、Earlier 四种筛选。新增论文时请使用唯一的 `id`。
+`image` 和 `summary` 可选。`authors_html` 保存完整作者列表，支持加粗姓名和贡献标记；作者较多时可用 `authors_short_html` 设置页面显示的缩略列表。`tech_reports` 使用论文 `id` 引用 Tech Report & Projects 区块中的条目；这些条目不会重复出现在 Research 列表中，会议或报告信息由 `venue`、`venue_full` 和 `year` 决定。Research 默认显示 All，支持 All、2026、2025、Earlier 四种筛选。`selected` 和 `selected_order` 为保留的历史字段，不影响当前显示和排序。新增论文时请使用唯一的 `id`。
 
 `content.json` 中的 HTML 字段仅用于网站作者维护的可信内容，不接收用户输入。
 

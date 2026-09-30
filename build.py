@@ -43,7 +43,7 @@ def publication_row(paper):
       {image}
       <div class="paper-content">
         <h3>{heading}</h3>
-        <p class="authors">{paper['authors_html']}</p>
+        <p class="authors">{paper.get('authors_short_html', paper['authors_html'])}</p>
         <p class="venue"><span title="{escape(paper['venue_full'], quote=True)}">{escape(paper['venue'])} · {paper['year']}</span>{distinction}</p>
         <p class="paper-links">{'<span aria-hidden="true"> / </span>'.join(links)}</p>
         {summary}
@@ -66,8 +66,8 @@ def tech_report_card(paper):
       {image}
       <div>
         <h3><a href="{url}">{title}</a></h3>
-        <p class="tech-meta">Technical report · {paper["year"]}</p>
-        <p class="authors">{paper["authors_html"]}</p>
+        <p class="tech-meta" title="{escape(paper['venue_full'], quote=True)}">{escape(paper['venue'])} · {paper["year"]}</p>
+        <p class="authors">{paper.get('authors_short_html', paper['authors_html'])}</p>
         <p class="paper-links">{'<span aria-hidden="true"> / </span>'.join(links)}</p>
       </div>
     </article>'''
