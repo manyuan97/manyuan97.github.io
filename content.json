@@ -151,7 +151,7 @@
     {
       "id": "vum-visual-unified-models-for-image-generation-and-perception",
       "title": "VUM: Visual Unified Models for Image Generation and Perception",
-      "url": "",
+      "url": "https://openreview.net/pdf/debcce0540cc87b725188e3ca27741e31c685b15.pdf",
       "authors_html": "ZiDong Wang, Yiyuan Zhang, Xiaoyu Yue, Xiangyuan Xue, Zhangquan Chen, <strong>Manyuan Zhang</strong><sup>+</sup>, Wanli Ouyang",
       "venue": "NeurIPS",
       "venue_full": "2026 Conference on Neural Information Processing Systems (NeurIPS)",
@@ -227,6 +227,37 @@
       "summary": "A native autoregressive model for text, vision, and audio."
     },
     {
+      "id": "longcat-2-0",
+      "title": "LongCat-2.0",
+      "url": "https://longcat.chat/blog/longcat-2.0/",
+      "link_label": "Blog ↗",
+      "authors_html": "Meituan LongCat Team",
+      "venue": "Model release",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Technical Report",
+      "distinction": "",
+      "links": [],
+      "selected": false,
+      "image": "assets/papers/longcat-2.png",
+      "summary": "A 1.6-trillion-parameter model trained end to end on domestically developed chips."
+    },
+    {
+      "id": "meituan-robotics-0-a-vision-language-action-foundation-model-for-desktop-manipulation",
+      "title": "Meituan-Robotics-0",
+      "url": "https://arxiv.org/abs/2611.08577",
+      "authors_html": "Meituan Robotics Team (including <strong>Manyuan Zhang</strong>), et al.",
+      "venue": "Technical report",
+      "venue_full": "",
+      "year": 2026,
+      "kind": "Technical Report",
+      "distinction": "",
+      "links": [],
+      "selected": false,
+      "image": "assets/papers/meituan-robotics-0.png",
+      "summary": "Training Lead · Responsible for end-to-end pretraining, midtraining, and post-training."
+    },
+    {
       "id": "longcat-flash-technical-report",
       "title": "LongCat-Flash Technical Report",
       "url": "https://arxiv.org/abs/2509.01322",
@@ -290,8 +321,8 @@
     },
     {
       "id": "large-scale-masked-face-recognition",
-      "title": "Large-scale Masked Face Recognition",
-      "url": "",
+      "title": "Towards Large-scale Masked Face Recognition",
+      "url": "https://arxiv.org/abs/2310.16364",
       "authors_html": "<strong>Manyuan Zhang</strong>, Bingqi Ma, Guanglu Song, Yunxiao Wang, Hongsheng Li, Yu Liu",
       "venue": "Technical report",
       "venue_full": "",
@@ -328,32 +359,6 @@
       "selected": false
     },
     {
-      "id": "interleavethinker-reinforcing-agentic-interleaved-generation",
-      "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
-      "url": "https://arxiv.org/abs/2606.13679",
-      "authors_html": "Dian Zheng, Harry Lee, <strong>Manyuan Zhang</strong><sup>+</sup>, Kaituo Feng, Zoey Guo, Ray Zhang, Hongsheng Li",
-      "venue": "Preprint",
-      "venue_full": "",
-      "year": 2026,
-      "kind": "Preprint Papers",
-      "distinction": "",
-      "links": [],
-      "selected": false
-    },
-    {
-      "id": "uni-edit-intelligent-editing-is-a-general-task-for-unified-model-tuning",
-      "title": "Uni-edit: Intelligent editing is a general task for unified model tuning",
-      "url": "https://arxiv.org/abs/2605.21487",
-      "authors_html": "Dian Zheng, <strong>Manyuan Zhang</strong><sup>+</sup>, Hongyu Li, Hongbo Liu, Kai Zou, Kaituo Feng, Hongsheng Li",
-      "venue": "Preprint",
-      "venue_full": "",
-      "year": 2026,
-      "kind": "Preprint Papers",
-      "distinction": "",
-      "links": [],
-      "selected": false
-    },
-    {
       "id": "editthinker-unlocking-iterative-reasoning-for-any-image-editor",
       "title": "EditThinker: Unlocking Iterative Reasoning for Any Image Editor",
       "url": "https://arxiv.org/abs/2512.05965",
@@ -370,40 +375,9 @@
       "summary": "Iterative reasoning and refinement for image editing."
     },
     {
-      "id": "architecture-decoupling-is-not-all-you-need-for-unified-multimodal-model",
-      "title": "Architecture Decoupling is Not All You Need for Unified Multimodal Model",
-      "url": "https://arxiv.org/abs/2511.22663",
-      "authors_html": "Dian Zheng, <strong>Manyuan Zhang</strong><sup>+</sup>, Hongyu Li, Kai Zou, Hongbo Liu, Ziyu Guo, Kaituo Feng, Yexin Liu, Ying Luo, Yan Feng, Peng Pei, Xunliang Cai, Hongsheng Li",
-      "venue": "Preprint",
-      "venue_full": "",
-      "year": 2025,
-      "kind": "Preprint Papers",
-      "distinction": "",
-      "links": [
-        {
-          "label": "机器之心",
-          "url": "https://mp.weixin.qq.com/s/cfkLqkwZdQeo9wH2R3ZNAA"
-        }
-      ],
-      "selected": false
-    },
-    {
-      "id": "macro-advancing-multi-reference-image-generation-with-structured-long-context-data",
-      "title": "MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data",
-      "url": "https://arxiv.org/abs/2603.25319",
-      "authors_html": "Zhekai Chen, Yuqing Wang, <strong>Manyuan Zhang</strong><sup>+</sup>, Xihui Liu",
-      "venue": "Preprint",
-      "venue_full": "",
-      "year": 2026,
-      "kind": "Preprint Papers",
-      "distinction": "",
-      "links": [],
-      "selected": false
-    },
-    {
       "id": "stable-mm-r1-anchoring-multimodal-reasoning-dynamics-via-entropy-guided-stratification",
       "title": "Stable-MM-R1: Anchoring Multimodal Reasoning Dynamics via Entropy-Guided Stratification",
-      "url": "",
+      "url": "https://arxiv.org/html/2609.07148v1",
       "authors_html": "Yimeng Ye, Shuang Chen, Wenxuan Huang, <strong>Manyuan Zhang</strong>, Kaituo Feng, Zhangquan Chen, Jiayu Chen, Yucheng Zhou, YiCheng Xiao, ZhiYuan Feng, TIANYU SHI",
       "venue": "EMNLP",
       "venue_full": "2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
@@ -886,17 +860,15 @@
   ],
   "projects": [
     {
-      "title": "X-Temporal",
-      "url": "https://github.com/Sense-X/X-Temporal/",
-      "description": "Easily implement SOTA video understanding methods with PyTorch on multiple machines and GPU."
-    },
-    {
-      "title": "DI-drive",
-      "url": "https://github.com/opendilab/DI-drive/",
-      "description": "Decision Intelligence Platform for Autonomous Driving simulation."
+      "title": "SenseMirage (商汤秒画)",
+      "url": "https://miaohua.sensetime.com/",
+      "description": "Text-to-image generation product that reached over one million DAU within one week.",
+      "image": "assets/papers/sensemirage-app.jpg"
     }
   ],
   "tech_reports": [
+    "meituan-robotics-0-a-vision-language-action-foundation-model-for-desktop-manipulation",
+    "longcat-2-0",
     "longcat-next-lexicalizing-modalities-as-discrete-tokens",
     "llava-onevision-2-towards-next-generation-perceptual-intelligence",
     "longcat-flash-technical-report",

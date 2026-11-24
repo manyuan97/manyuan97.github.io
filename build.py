@@ -59,9 +59,11 @@ def tech_report_card(paper):
         image = (f'<a class="tech-figure" href="{url}" tabindex="-1" aria-hidden="true">'
                  f'<img src="{escape(paper["image"], quote=True)}" alt="" loading="lazy" decoding="async" width="220" height="130">'
                  '</a>')
-    links = [f'<a href="{url}">Paper ↗</a>'] if url else []
+    primary_label = escape(paper.get("link_label", "Paper ↗"))
+    links = [f'<a href="{url}">{primary_label}</a>'] if url else []
     for link in paper["links"]:
         links.append(f'<a href="{escape(link["url"], quote=True)}">{escape(link["label"])}</a>')
+    summary = f'<p class="paper-summary">{escape(paper["summary"])}</p>' if paper.get("summary") else ""
     return f'''<article class="tech-card">
       {image}
       <div>
@@ -69,6 +71,29 @@ def tech_report_card(paper):
         <p class="tech-meta" title="{escape(paper['venue_full'], quote=True)}">{escape(paper['venue'])} · {paper["year"]}</p>
         <p class="authors">{paper.get('authors_short_html', paper['authors_html'])}</p>
         <p class="paper-links">{'<span aria-hidden="true"> / </span>'.join(links)}</p>
+        {summary}
+      </div>
+    </article>'''
+
+
+def project_card(project):
+    title = escape(project["title"])
+    url = escape(project["url"], quote=True)
+    image = ""
+    if project.get("image"):
+        image_path = ROOT / project["image"]
+        if not image_path.is_file():
+            raise ValueError(f"Missing project figure: {project['image']}")
+        image = (f'<a class="tech-figure" href="{url}" tabindex="-1" aria-hidden="true">'
+                 f'<img src="{escape(project["image"], quote=True)}" alt="" loading="lazy" decoding="async" width="220" height="130">'
+                 '</a>')
+    link = f'<a href="{url}">Project ↗</a>' if url else ""
+    return f'''<article class="tech-card project-card">
+      {image}
+      <div>
+        <h3><a href="{url}">{title}</a></h3>
+        <p class="paper-links">{link}</p>
+        <p class="paper-summary">{escape(project["description"])}</p>
       </div>
     </article>'''
 
@@ -81,10 +106,7 @@ def main():
     ids = [p["id"] for p in all_publications]
     if len(ids) != len(set(ids)):
         raise ValueError("Publication IDs must be unique")
-    projects = "\n".join(
-        f'<li><h3><a href="{escape(p["url"], quote=True)}">{escape(p["title"])}</a></h3>'
-        f'<p>{escape(p["description"])}</p></li>' for p in data["projects"]
-    )
+    projects = "\n".join(project_card(p) for p in data["projects"])
     substitutions = {
         "RECENT_NEWS": "\n".join(news_row(n) for n in data["news"][:6]),
         "OLDER_NEWS": "\n".join(news_row(n) for n in data["news"][6:]),

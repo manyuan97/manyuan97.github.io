@@ -1,6 +1,6 @@
-# Paper figures
+# Homepage figures
 
-Figures from the papers displayed on the homepage; rights remain with the respective authors.
+Figures from the papers and projects displayed on the homepage; rights remain with the respective authors or project owners.
 
 - `longcat-next.png`: https://arxiv.org/html/2603.27538v1/Overview.png
 - `longcat-flash.png`: https://arxiv.org/html/2509.01322v1/benchmark_overview.png
@@ -12,3 +12,6 @@ Figures from the papers displayed on the homepage; rights remain with the respec
 - `motion-i2v.png`: https://arxiv.org/html/2401.15977v1/overview.png
 - `decoupled-detr.png`: https://arxiv.org/html/2310.15955v1/main.png
 - `onevision-encoder.png`: https://arxiv.org/html/2602.08683v1 (Figure 2, CC BY 4.0)
+- `longcat-2.png`: https://s3.meituan.net/static-prod01/com.sankuai.friday.longcat.next2/assets/lsaimage-CCkXmBaN.svg
+- `meituan-robotics-0.png`: https://arxiv.org/html/2611.08577v3/main_mr0_robodojo_walloss.png
+- `sensemirage-app.jpg`: user-provided App Store screenshot, cropped to the iPhone screenshots strip
